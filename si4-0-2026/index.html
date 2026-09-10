@@ -1,0 +1,1623 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Bando SI4.0 2026 - Istruzioni operative</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+:root { --tc-gold: rgb(246, 179, 49); --tc-gold-dark: rgb(210, 145, 20); --tc-ink: #222222; --tc-blue: #267CB9; --tc-blue-dark: #006699; --tc-paper: #fffdf7; --tc-line: #e7d8b5; }
+html { background: #f6f1e7 !important; }
+body { max-width: 980px !important; margin: 32px auto !important; padding: 48px 56px !important; color: var(--tc-ink) !important; background: var(--tc-paper) !important; border-top: 8px solid var(--tc-gold); border-radius: 12px; box-shadow: 0 18px 50px rgba(67,48,13,.12); font-family: Georgia, "Times New Roman", serif; }
+h1,h2,h3 { color: var(--tc-gold) !important; } h4,h5,h6 { color: var(--tc-gold-dark) !important; } h1 { font-size: clamp(2rem,5vw,3.5rem); line-height: 1.05; } h2 { border-bottom: 2px solid var(--tc-line); padding-bottom: .35rem; }
+p,li,td,th,blockquote,strong,em,small,span { color: var(--tc-ink) !important; } a,a:link,a:visited { color: var(--tc-blue) !important; font-weight: 700; } a:hover { color: var(--tc-blue-dark) !important; }
+table { width: 100%; border-collapse: collapse; display: table !important; } th { background: #fff2ce; } th,td { border: 1px solid var(--tc-line); padding: .65rem; vertical-align: top; } blockquote { margin: 1.5rem 0; padding: 1rem 1.25rem; background: #fff6dc; border-left: 5px solid var(--tc-gold); } code { background: #f3ead8; color: var(--tc-ink); padding: .15rem .3rem; border-radius: 3px; } hr { border: 0; border-top: 1px solid var(--tc-line); margin: 2.5rem 0; }
+@media (max-width:700px) { body { margin: 0 !important; padding: 28px 20px !important; border-radius: 0; } table { display: block !important; overflow-x: auto; } } @media print { html { background: #fff !important; } body { margin: 0 !important; padding: 20px !important; box-shadow: none; border-radius: 0; } }
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Bando SI4.0 2026 - Istruzioni operative</h1>
+</header>
+<h1 id="bando-si40-2026">Bando SI4.0 2026</h1>
+<h2
+id="istruzioni-operative-generiche-per-la-preparazione-della-domanda">Istruzioni
+operative generiche per la preparazione della domanda</h2>
+<p>Ciao! Questa guida raccoglie le attività necessarie per preparare e
+presentare una domanda sul <strong>Bando SI4.0 2026 - Sviluppo di
+Soluzioni Innovative 4.0</strong> di Unioncamere Lombardia.</p>
+<p>Il documento è un modello riutilizzabile: sostituisci tutti i campi
+tra parentesi quadre con i dati del cliente e del progetto, elimina le
+sezioni non applicabili e verifica ogni dichiarazione sui documenti
+aziendali.</p>
+<blockquote>
+<p><strong>ATTENZIONE - MODELLO DA PERSONALIZZARE E VALIDARE.</strong>
+Questa guida non è una domanda pronta per l'invio e non sostituisce il
+bando, gli allegati ufficiali o le FAQ. Prima dell'uso e della
+presentazione, il consulente e il titolare/legale rappresentante devono
+verificare dati, requisiti, preventivi, firme, allegati e versione
+vigente della documentazione. La presentazione resta un'attività umana
+sotto la responsabilità dell'impresa richiedente.</p>
+</blockquote>
+<hr />
+<h2 id="scadenza-e-meccanismo-di-assegnazione">Scadenza e meccanismo di
+assegnazione</h2>
+<blockquote>
+<p><strong>APERTURA:</strong> dalle ore <strong>14:00 del 1° settembre
+2026</strong><br />
+<strong>CHIUSURA:</strong> alle ore <strong>12:00 del 25 settembre
+2026</strong><br />
+<strong>CANALE UNICO:</strong> piattaforma <strong>ReStart di
+InfoCamere</strong> - <a
+href="https://restart.infocamere.it">https://restart.infocamere.it</a><br />
+<strong>PROCEDURA:</strong> valutativa a graduatoria, non click-day e
+non assegnazione in semplice ordine cronologico.</p>
+</blockquote>
+<p>Le domande formalmente ammissibili sono valutate tecnicamente. I
+progetti devono ottenere almeno <strong>65 punti su 100</strong>, prima
+della premialità DIH/EDI. Le imprese sono finanziate in ordine di
+punteggio e nei limiti delle risorse disponibili per il territorio della
+sede operativa interessata. A parità di punteggio prevalgono,
+nell'ordine, il criterio <strong>e</strong> (innovazione digitale e
+green), il criterio <strong>a</strong> (coerenza e qualità) e il
+criterio <strong>g</strong> (cantierabilità). Riferimenti: punti
+<strong>A.5, C.1, C.2 e C.3</strong>.</p>
+<blockquote>
+<p>La finestra temporale va rispettata rigorosamente, ma inviare per
+primi non attribuisce un punteggio maggiore. È comunque prudente non
+attendere le ultime ore, per ridurre il rischio di problemi tecnici.</p>
+</blockquote>
+<hr />
+<h2 id="informazioni-rapide">Informazioni rapide</h2>
+<table>
+<thead>
+<tr>
+<th>Voce</th>
+<th>Regola validata</th>
+<th>Fonte bando</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Beneficiari</td>
+<td>Micro, piccole e medie imprese con sede legale in Lombardia e sede
+operativa interessata iscritta e attiva presso una Camera aderente</td>
+<td>A.3</td>
+</tr>
+<tr>
+<td>Territori finanziati</td>
+<td>Bergamo; Brescia; Milano, Monza Brianza e Lodi</td>
+<td>A.5</td>
+</tr>
+<tr>
+<td>Dotazione complessiva</td>
+<td>EUR 5.075.000,00, ripartita per territorio</td>
+<td>A.5</td>
+</tr>
+<tr>
+<td>Investimento minimo</td>
+<td>EUR 25.000,00 di spese ammissibili, obbligatoriamente da
+sostenere</td>
+<td>B.1, B.3</td>
+</tr>
+<tr>
+<td>Intensità</td>
+<td>50% dei costi ammissibili</td>
+<td>B.1</td>
+</tr>
+<tr>
+<td>Contributo massimo</td>
+<td>EUR 30.000,00, oltre alle eventuali premialità economiche nei limiti
+applicabili</td>
+<td>B.1</td>
+</tr>
+<tr>
+<td>Regime</td>
+<td>De minimis, Regolamento (UE) 2023/2831</td>
+<td>B.1</td>
+</tr>
+<tr>
+<td>Durata</td>
+<td>Entro 12 mesi dalla concessione; non sono ammesse proroghe</td>
+<td>B.2, D.2</td>
+</tr>
+<tr>
+<td>Spese</td>
+<td>Dalla data di approvazione del bando; sostenute, quietanzate e
+rendicontate entro 12 mesi dalla concessione</td>
+<td>B.3</td>
+</tr>
+<tr>
+<td>Erogazione</td>
+<td>A saldo, dopo verifica della rendicontazione; contributo al lordo
+della ritenuta del 4% ed erogazione al netto della ritenuta</td>
+<td>B.1, C.4</td>
+</tr>
+<tr>
+<td>Soglia tecnica</td>
+<td>Almeno 65/100; eventuale premialità DIH/EDI di 3 punti applicabile
+solo dopo il superamento della soglia</td>
+<td>C.3</td>
+</tr>
+<tr>
+<td>Soglia di realizzazione</td>
+<td>Spese riconosciute almeno pari a EUR 25.000,00 e non inferiori al
+70% delle spese ammissibili approvate</td>
+<td>C.4, D.2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="risorse-per-territorio">Risorse per territorio</h3>
+<table>
+<thead>
+<tr>
+<th>Camera di commercio competente</th>
+<th style="text-align: right;">Stanziamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bergamo</td>
+<td style="text-align: right;">EUR 325.000,00</td>
+</tr>
+<tr>
+<td>Brescia</td>
+<td style="text-align: right;">EUR 250.000,00</td>
+</tr>
+<tr>
+<td>Milano Monza Brianza Lodi</td>
+<td style="text-align: right;">EUR 4.500.000,00</td>
+</tr>
+<tr>
+<td><strong>Totale</strong></td>
+<td style="text-align: right;"><strong>EUR 5.075.000,00</strong></td>
+</tr>
+</tbody>
+</table>
+<p>L'eventuale ultima impresa finanziata di ciascun territorio può
+ricevere un'intensità inferiore al 50% se le risorse residue non sono
+sufficienti. Riferimento: <strong>B.1</strong>.</p>
+<hr />
+<h2 id="cosa-serve-subito">Cosa serve subito</h2>
+<h3 id="a-carico-del-cliente">A carico del cliente</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" />Credenziale personale attiva per
+ReStart: <strong>SPID, CNS o CIE</strong>.</label></li>
+<li><label><input type="checkbox" />Dispositivo/servizio di
+<strong>firma digitale</strong> valido del titolare o legale
+rappresentante.</label></li>
+<li><label><input type="checkbox" />Un unico indirizzo
+<strong>PEC</strong> aziendale attivo, da usare sia nella domanda sia
+nell'anagrafica ReStart.</label></li>
+<li><label><input type="checkbox" />Dati camerali aggiornati: [RAGIONE
+SOCIALE], [CODICE FISCALE/P.IVA], [REA], [SEDE LEGALE], [SEDE OPERATIVA
+OGGETTO DELL'INTERVENTO].</label></li>
+<li><label><input type="checkbox" />Regolarità del diritto camerale e
+verifica preventiva del <strong>DURC</strong>.</label></li>
+<li><label><input type="checkbox" />Certificato della polizza contro i
+danni da eventi catastrofali.</label></li>
+<li><label><input type="checkbox" />Report <strong>Selfi 4.0</strong>
+compilato per la prima volta o aggiornato a partire dal <strong>1°
+gennaio 2026</strong>.</label></li>
+<li><label><input type="checkbox" />Dati sulla dimensione d'impresa e
+sulle eventuali imprese associate/collegate per l'Allegato
+C.</label></li>
+<li><label><input type="checkbox" />Informazioni reali sul progetto, sul
+team interno, sul mercato e sugli impatti attesi.</label></li>
+</ul>
+<h3
+id="a-carico-di-consulente-e-fornitori-con-validazione-del-cliente">A
+carico di consulente e fornitori, con validazione del cliente</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" />Strutturazione tecnica del progetto
+e piano attività.</label></li>
+<li><label><input type="checkbox" />Classificazione delle tecnologie 4.0
+ammissibili.</label></li>
+<li><label><input type="checkbox" />Preventivi dettagliati e coerenti
+con il piano di spesa.</label></li>
+<li><label><input type="checkbox" />Dati e prova della qualificazione
+dei fornitori, ove richiesta.</label></li>
+<li><label><input type="checkbox" />Bozze dell'Allegato A e
+dell'Allegato B.</label></li>
+<li><label><input type="checkbox" />Controllo incrociato tra domanda
+ReStart, allegati e preventivi.</label></li>
+</ul>
+<p>Riferimenti: <strong>A.3, B.2, B.3, B.4 e C.1</strong>.</p>
+<hr />
+<h2 id="step-1---verifica-di-ammissibilità-dellimpresa">Step 1 -
+Verifica di ammissibilità dell'impresa</h2>
+<p>Compilare la colonna "Esito" con <strong>SI / NO / DA
+VERIFICARE</strong>. Un requisito non verificato non va trasformato in
+una dichiarazione positiva.</p>
+<table>
+<thead>
+<tr>
+<th>Requisito eliminatorio</th>
+<th>Esito</th>
+<th>Evidenza da acquisire</th>
+<th>Fonte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[RAGIONE SOCIALE] è una micro, piccola o media impresa secondo la
+definizione UE</td>
+<td>[ESITO]</td>
+<td>Allegato C e dati societari</td>
+<td>A.3(a)</td>
+</tr>
+<tr>
+<td>La sede legale è in Lombardia</td>
+<td>[ESITO]</td>
+<td>Visura camerale</td>
+<td>A.3(b)</td>
+</tr>
+<tr>
+<td>La sede operativa oggetto dell'intervento è iscritta e attiva presso
+CCIAA Bergamo, Brescia o Milano Monza Brianza Lodi</td>
+<td>[ESITO]</td>
+<td>Visura e localizzazione indicata su ReStart</td>
+<td>A.3(b), A.5</td>
+</tr>
+<tr>
+<td>Il diritto camerale annuale è regolare</td>
+<td>[ESITO]</td>
+<td>Verifica camerale</td>
+<td>A.3(c)</td>
+</tr>
+<tr>
+<td>L'impresa è nel pieno e libero esercizio dei diritti e non ricade
+nelle procedure liquidatorie escluse</td>
+<td>[ESITO]</td>
+<td>Dichiarazione e verifiche societarie</td>
+<td>A.3(d)</td>
+</tr>
+<tr>
+<td>Il DURC è regolare e l'impresa rispetta salute e sicurezza sul
+lavoro</td>
+<td>[ESITO]</td>
+<td>DURC online e dichiarazione</td>
+<td>A.3(e)</td>
+</tr>
+<tr>
+<td>Non sono richiesti/ricevuti altri aiuti pubblici sulle stesse
+spese</td>
+<td>[ESITO]</td>
+<td>Piano degli aiuti e dichiarazione</td>
+<td>A.3(f), B.1</td>
+</tr>
+<tr>
+<td>L'impresa non è assegnataria dei contributi Voucher Digitali 4.0
+Lombardia 2025 o SI4.0 2025</td>
+<td>[ESITO]</td>
+<td>Verifica precedenti agevolazioni</td>
+<td>A.3(g)</td>
+</tr>
+<tr>
+<td>Se assegnataria SI4.0 2024, ha presentato la rendicontazione</td>
+<td>[ESITO/N.A.]</td>
+<td>Protocollo rendicontazione</td>
+<td>A.3(h)</td>
+</tr>
+<tr>
+<td>Non sussistono cause antimafia per legali rappresentanti,
+amministratori e soci</td>
+<td>[ESITO]</td>
+<td>Dichiarazioni dei soggetti interessati</td>
+<td>A.3(i)</td>
+</tr>
+<tr>
+<td>Non sussistono le condanne definitive richiamate dal bando per
+legali rappresentanti o amministratori</td>
+<td>[ESITO]</td>
+<td>Dichiarazioni dei soggetti interessati</td>
+<td>A.3(j)</td>
+</tr>
+<tr>
+<td>L'impresa non è destinataria di sanzioni interdittive o divieti di
+contrarre con la PA</td>
+<td>[ESITO]</td>
+<td>Dichiarazione</td>
+<td>A.3(k)</td>
+</tr>
+<tr>
+<td>Non ha forniture di servizi in corso con la Camera di commercio
+competente nei casi vietati</td>
+<td>[ESITO]</td>
+<td>Verifica contratti in essere</td>
+<td>A.3(l)</td>
+</tr>
+<tr>
+<td>Ha assolto l'obbligo di polizza per rischi catastrofali</td>
+<td>[ESITO]</td>
+<td>Certificato di polizza</td>
+<td>A.3(m), C.1</td>
+</tr>
+<tr>
+<td>L'attività non appartiene ai settori esclusi dall'art. 1, par. 1,
+lett. a) e c), Reg. (UE) 2023/2831</td>
+<td>[ESITO]</td>
+<td>ATECO/attività effettiva e verifica consulenziale</td>
+<td>A.3(a), B.1</td>
+</tr>
+<tr>
+<td>È presentata una sola richiesta, salvo rinuncia formale alla
+precedente</td>
+<td>[ESITO]</td>
+<td>Verifica interna</td>
+<td>B.1</td>
+</tr>
+</tbody>
+</table>
+<p>I requisiti di cui al punto <strong>A.3, lettere b-m</strong>, devono
+essere mantenuti dalla presentazione fino alla liquidazione. Le
+dichiarazioni possono essere controllate anche a campione.</p>
+<h3 id="imprese-collegate-che-presentano-domanda">Imprese collegate che
+presentano domanda</h3>
+<p>Se più richiedenti hanno rapporti di controllo/collegamento, una
+partecipazione anche cumulativa di almeno il 25%, oppure gli stessi
+amministratori o soci, il bando ammette solo la prima domanda presentata
+in ordine cronologico. Verificare prima dell'invio: <strong>[ESITO
+VERIFICA GRUPPO]</strong>. Riferimento: <strong>B.1</strong>.</p>
+<hr />
+<h2 id="step-2---definizione-del-progetto-40">Step 2 - Definizione del
+progetto 4.0</h2>
+<p>Il progetto deve sviluppare, tramite sperimentazione, prototipazione
+e messa sul mercato, una soluzione/applicazione/prodotto/servizio
+innovativo 4.0 <strong>prontamente cantierabile</strong> e con
+potenziale interesse di mercato. Deve riguardare almeno una tecnologia
+dell'elenco del punto <strong>B.2</strong>.</p>
+<h3 id="scheda-progetto-da-personalizzare">Scheda progetto da
+personalizzare</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Contenuto da inserire</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Titolo</td>
+<td>[TITOLO PROGETTO]</td>
+</tr>
+<tr>
+<td>Impresa</td>
+<td>[RAGIONE SOCIALE]</td>
+</tr>
+<tr>
+<td>Sede interessata</td>
+<td>[INDIRIZZO SEDE OPERATIVA]</td>
+</tr>
+<tr>
+<td>Problema/opportunità</td>
+<td>[PROBLEMA CONCRETO E MISURABILE]</td>
+</tr>
+<tr>
+<td>Soluzione</td>
+<td>[DESCRIZIONE DELLA SOLUZIONE 4.0]</td>
+</tr>
+<tr>
+<td>Tecnologia principale</td>
+<td>[TECNOLOGIA B.2]</td>
+</tr>
+<tr>
+<td>Tecnologie ulteriori</td>
+<td>[ALTRE TECNOLOGIE B.2 / N.A.]</td>
+</tr>
+<tr>
+<td>Stato iniziale</td>
+<td>[SITUAZIONE ATTUALE]</td>
+</tr>
+<tr>
+<td>Risultati attesi</td>
+<td>[OUTPUT E KPI]</td>
+</tr>
+<tr>
+<td>Mercato</td>
+<td>[CLIENTI/MERCATO E PROVE DI INTERESSE]</td>
+</tr>
+<tr>
+<td>Impatto digitale</td>
+<td>[BENEFICIO DIGITALE QUANTIFICATO]</td>
+</tr>
+<tr>
+<td>Impatto green</td>
+<td>[BENEFICIO AMBIENTALE/ENERGETICO/IDRICO QUANTIFICATO]</td>
+</tr>
+<tr>
+<td>AI/robotica</td>
+<td>[COMPONENTE E IMPATTO / N.A.]</td>
+</tr>
+<tr>
+<td>Durata</td>
+<td>[DATA PREVISTA INIZIO] - [DATA PREVISTA FINE], entro 12 mesi dalla
+concessione</td>
+</tr>
+<tr>
+<td>Responsabile interno</td>
+<td>[NOME E RUOLO]</td>
+</tr>
+<tr>
+<td>Fornitore/i</td>
+<td>[FORNITORE - CODICE FISCALE - RUOLO]</td>
+</tr>
+</tbody>
+</table>
+<h3
+id="tecnologie-ammissibili-da-selezionare-solo-se-pertinenti">Tecnologie
+ammissibili da selezionare solo se pertinenti</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" />Robotica industriale e
+collaborativa; human-centric robotics.</label></li>
+<li><label><input type="checkbox" />Sistemi di visione
+artificiale.</label></li>
+<li><label><input type="checkbox" />Manifattura additiva e
+prototipazione rapida.</label></li>
+<li><label><input type="checkbox" />Realtà aumentata, virtuale, mixed
+reality e ricostruzioni 3D.</label></li>
+<li><label><input type="checkbox" />Digital twin, hardware in the loop,
+human in the loop.</label></li>
+<li><label><input type="checkbox" />Internet of Things e sistemi
+cyber-fisici.</label></li>
+<li><label><input type="checkbox" />Cloud computing ed edge
+computing.</label></li>
+<li><label><input type="checkbox" />Cybersecurity e business
+continuity.</label></li>
+<li><label><input type="checkbox" />Intelligenza artificiale, machine
+learning, deep learning, NLP, LLM, agenti AI, data mining.</label></li>
+<li><label><input type="checkbox" />Blockchain e smart
+contract.</label></li>
+<li><label><input type="checkbox" />Big data e analytics.</label></li>
+<li><label><input type="checkbox" />Sistemi di gestione dati aziendali:
+ERP, CRM, MES, DMS, HRMS, WMS, BI.</label></li>
+</ul>
+<p>Non inserire tecnologie solo per aumentare il punteggio: ogni voce
+deve essere reale, necessaria, descritta nel progetto e coerente con
+costi, team e preventivi.</p>
+<hr />
+<h2 id="step-3---piano-attività-e-valutazione-tecnica">Step 3 - Piano
+attività e valutazione tecnica</h2>
+<p>La procedura è a graduatoria. Preparare testi e prove per ciascun
+criterio del punto <strong>C.3</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Criterio</th>
+<th style="text-align: right;">Max</th>
+<th>Informazioni da preparare</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a. Coerenza e qualità rispetto a obiettivi e missione</td>
+<td style="text-align: right;">20</td>
+<td>[MISSIONE], [FABBISOGNO], [OBIETTIVI MISURABILI], coerenza
+strategica</td>
+</tr>
+<tr>
+<td>b. Coerenza del piano di attività</td>
+<td style="text-align: right;">10</td>
+<td>Fasi, tempi, milestone, deliverable, responsabili e costi
+coerenti</td>
+</tr>
+<tr>
+<td>c. Qualificazione e professionalità del team</td>
+<td style="text-align: right;">10</td>
+<td>[TEAM INTERNO], [FORNITORI], ruoli, esperienze, CV/certificazioni
+verificabili</td>
+</tr>
+<tr>
+<td>d. Metodologie, strumenti e tecnologie</td>
+<td style="text-align: right;">10</td>
+<td>[METODO], [PIATTAFORME/HW/SW], sviluppo, test e motivazione delle
+scelte</td>
+</tr>
+<tr>
+<td>e. Innovazione digitale e green</td>
+<td style="text-align: right;">15</td>
+<td>[IMPATTO DIGITALE], [KPI GREEN], valori iniziali e target
+documentabili</td>
+</tr>
+<tr>
+<td>f. Robotica/human-centric robotics/AI</td>
+<td style="text-align: right;">15</td>
+<td>[COMPONENTE AI O ROBOTICA], funzione e risultati attesi; indicare
+N.A. se assente</td>
+</tr>
+<tr>
+<td>g. Cantierabilità</td>
+<td style="text-align: right;">10</td>
+<td>[RISCONTRO DI MERCATO], fattibilità, sostenibilità economica,
+lettere di interesse</td>
+</tr>
+<tr>
+<td>h. Congruità dei costi</td>
+<td style="text-align: right;">5</td>
+<td>Preventivi dettagliati e giustificazione di ciascuna spesa</td>
+</tr>
+<tr>
+<td>i. Completezza e chiarezza</td>
+<td style="text-align: right;">5</td>
+<td>Allegati completi, dati coerenti, esposizione chiara</td>
+</tr>
+<tr>
+<td>k. Collaborazione DIH/EDI</td>
+<td style="text-align: right;">+3</td>
+<td>[DIH/EDI], ruolo reale e documentazione; solo dopo 65/100</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cronoprogramma">Cronoprogramma</h3>
+<table>
+<thead>
+<tr>
+<th>Fase</th>
+<th>Attività</th>
+<th>Deliverable</th>
+<th>Inizio</th>
+<th>Fine</th>
+<th>Responsabile</th>
+<th style="text-align: right;">Costo collegato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>[ATTIVITÀ]</td>
+<td>[DELIVERABLE]</td>
+<td>[DATA]</td>
+<td>[DATA]</td>
+<td>[SOGGETTO]</td>
+<td style="text-align: right;">[EUR]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>[ATTIVITÀ]</td>
+<td>[DELIVERABLE]</td>
+<td>[DATA]</td>
+<td>[DATA]</td>
+<td>[SOGGETTO]</td>
+<td style="text-align: right;">[EUR]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>[ATTIVITÀ]</td>
+<td>[DELIVERABLE]</td>
+<td>[DATA]</td>
+<td>[DATA]</td>
+<td>[SOGGETTO]</td>
+<td style="text-align: right;">[EUR]</td>
+</tr>
+<tr>
+<td><strong>Totale</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: right;"><strong>[IMPORTO PROGETTO]</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Tutte le attività devono concludersi entro 12 mesi dalla concessione.
+Non sono ammesse proroghe. Riferimento: <strong>B.2</strong>.</p>
+<hr />
+<h2 id="step-4---costruzione-del-budget">Step 4 - Costruzione del
+budget</h2>
+<h3 id="spese-ammissibili">Spese ammissibili</h3>
+<table>
+<thead>
+<tr>
+<th>Codice</th>
+<th>Voce</th>
+<th style="text-align: right;">Importo</th>
+<th>Fornitore/risorsa</th>
+<th>Qualificazione richiesta</th>
+<th>Fonte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>Consulenza</td>
+<td style="text-align: right;">[EUR]</td>
+<td>[FORNITORE]</td>
+<td>Sì, punto B.4</td>
+<td>B.3(a), B.4</td>
+</tr>
+<tr>
+<td>b</td>
+<td>Formazione su tecnologie B.2</td>
+<td style="text-align: right;">[EUR]</td>
+<td>[FORNITORE]</td>
+<td>Sì, punto B.4</td>
+<td>B.3(b), B.4</td>
+</tr>
+<tr>
+<td>c</td>
+<td>Attrezzature tecnologiche e programmi informatici necessari</td>
+<td style="text-align: right;">[EUR]</td>
+<td>[FORNITORE]</td>
+<td>Nessun requisito specifico sul fornitore</td>
+<td>B.3(c), B.4</td>
+</tr>
+<tr>
+<td>d</td>
+<td>Ingegnerizzazione software/hardware e prodotti</td>
+<td style="text-align: right;">[EUR]</td>
+<td>[FORNITORE]</td>
+<td>Sì, punto B.4</td>
+<td>B.3(d), B.4</td>
+</tr>
+<tr>
+<td>e</td>
+<td>Tutela della proprietà industriale</td>
+<td style="text-align: right;">[EUR]</td>
+<td>[FORNITORE]</td>
+<td>Nessun requisito specifico sul fornitore</td>
+<td>B.3(e), B.4</td>
+</tr>
+<tr>
+<td>f</td>
+<td>Personale dipendente espressamente dedicato</td>
+<td style="text-align: right;">[EUR]</td>
+<td>[DIPENDENTI]</td>
+<td>Max 30% della somma a-e; esclusi soci e amministratori</td>
+<td>B.3(f)</td>
+</tr>
+<tr>
+<td><strong>Totale</strong></td>
+<td></td>
+<td style="text-align: right;"><strong>[IMPORTO PROGETTO]</strong></td>
+<td></td>
+<td>Minimo EUR 25.000,00</td>
+<td>B.1, B.3</td>
+</tr>
+<tr>
+<td><strong>Contributo richiesto</strong></td>
+<td>50%, max EUR 30.000,00</td>
+<td style="text-align: right;"><strong>[CONTRIBUTO
+RICHIESTO]</strong></td>
+<td></td>
+<td>Verificare de minimis</td>
+<td>B.1</td>
+</tr>
+</tbody>
+</table>
+<p>Per le attrezzature è ammissibile il costo nella misura e per il
+periodo di utilizzo nel progetto. Nel leasing finanziario è ammissibile
+soltanto la quota capitale dei canoni pagati nella misura e per il
+periodo di utilizzo. L'IVA è esclusa, salvo che rappresenti un costo
+realmente ed effettivamente sostenuto senza possibilità di recupero.
+Riferimento: <strong>B.3</strong>.</p>
+<h3 id="spese-da-escludere">Spese da escludere</h3>
+<ul>
+<li>Autofatturazione, salvo l'eccezione richiamata dal bando in
+rendicontazione.</li>
+<li>Fatture con spese ammissibili inferiori a EUR 300,00 al netto
+IVA.</li>
+<li>Smartphone.</li>
+<li>PC non strettamente collegati alle tecnologie del punto B.2.</li>
+<li>Beni usati e noleggio di attrezzature.</li>
+<li>Assistenza per acquisire certificazioni quali ISO o EMAS.</li>
+<li>Adeguamenti normativi e consulenza prevalentemente fiscale,
+finanziaria o giuridica.</li>
+<li>Formazione obbligatoria per legge.</li>
+<li>Soci e amministratori tra le spese di personale.</li>
+</ul>
+<p>Riferimento: <strong>B.3</strong>.</p>
+<h3 id="verifica-di-ogni-fornitore">Verifica di ogni fornitore</h3>
+<p>Per consulenza, formazione e ingegnerizzazione usare esclusivamente
+fornitori appartenenti alle categorie qualificate del punto
+<strong>B.4</strong>. Per ciascuno compilare:</p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Valore/evidenza</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Denominazione</td>
+<td>[FORNITORE]</td>
+</tr>
+<tr>
+<td>Codice fiscale/P.IVA</td>
+<td>[CODICE FISCALE FORNITORE]</td>
+</tr>
+<tr>
+<td>Voce di spesa</td>
+<td>[A/B/C/D/E]</td>
+</tr>
+<tr>
+<td>Categoria B.4, se richiesta</td>
+<td>[CATEGORIA QUALIFICATA]</td>
+</tr>
+<tr>
+<td>Evidenza della qualifica</td>
+<td>[ISCRIZIONE/CERTIFICAZIONE/LINK/DOCUMENTO]</td>
+</tr>
+<tr>
+<td>Qualifica valida alla data di domanda</td>
+<td>[SI/NO/DA VERIFICARE]</td>
+</tr>
+<tr>
+<td>Assenza di rapporti vietati</td>
+<td>[SI/NO/DA VERIFICARE]</td>
+</tr>
+</tbody>
+</table>
+<p>Se si utilizza l'Elenco pubblico di Fornitori di servizi e tecnologie
+4.0 di Unioncamere Lombardia, la domanda di iscrizione del fornitore
+deve essere stata presentata <strong>prima</strong> della domanda
+dell'impresa. Per la specifica categoria di enti/percorsi formativi con
+riferimento al settore energetico, il punto B.4 richiede una durata non
+inferiore a 40 ore; non estendere automaticamente tale soglia a ogni
+corso senza verifica della categoria applicabile.</p>
+<p>Sono escluse le acquisizioni da soggetti in rapporto di
+controllo/collegamento con il richiedente, con partecipazione comune
+anche indiretta e cumulativa di almeno il 25%, oppure da amministratori,
+soci o loro prossimi congiunti come definiti dal bando. È inoltre
+vietata la reciprocità tra richiedente e fornitore che presenta a sua
+volta domanda. I fornitori vanno indicati nell'Allegato B con
+denominazione e codice fiscale. Riferimenti: <strong>B.3 e
+B.4</strong>.</p>
+<hr />
+<h2 id="step-5---documenti-e-responsabilità">Step 5 - Documenti e
+responsabilità</h2>
+<h3 id="documenti-che-il-cliente-deve-fornire-o-validare">Documenti che
+il cliente deve fornire o validare</h3>
+<table>
+<thead>
+<tr>
+<th>Documento/dato</th>
+<th>Responsabile</th>
+<th>Controllo richiesto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dati anagrafici e camerali</td>
+<td>Cliente</td>
+<td>Coerenza con visura e ReStart</td>
+</tr>
+<tr>
+<td>Allegato C - dimensione d'impresa</td>
+<td>Cliente con supporto consulente</td>
+<td>Dati su imprese associate/collegate e firma</td>
+</tr>
+<tr>
+<td>Selfi 4.0</td>
+<td>Cliente</td>
+<td>Prima compilazione o aggiornamento dal 1/1/2026</td>
+</tr>
+<tr>
+<td>Certificato polizza catastrofale</td>
+<td>Cliente/assicuratore</td>
+<td>Validità e intestazione</td>
+</tr>
+<tr>
+<td>Dichiarazioni requisiti A.3</td>
+<td>Cliente</td>
+<td>Veridicità e mantenimento fino alla liquidazione</td>
+</tr>
+<tr>
+<td>Dati team interno e personale</td>
+<td>Cliente</td>
+<td>Ruoli, contratti, ore/costi e prove</td>
+</tr>
+<tr>
+<td>Firma digitale</td>
+<td>Titolare/legale rappresentante</td>
+<td>Certificato valido e firma su documenti richiesti</td>
+</tr>
+<tr>
+<td>PEC unica</td>
+<td>Cliente</td>
+<td>Identica nella domanda e nell'anagrafica ReStart</td>
+</tr>
+</tbody>
+</table>
+<h3
+id="documenti-preparati-da-consulentefornitore-e-approvati-dal-cliente">Documenti
+preparati da consulente/fornitore e approvati dal cliente</h3>
+<table>
+<thead>
+<tr>
+<th>Documento</th>
+<th>Preparazione</th>
+<th>Validazione finale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Allegato A - Progetto</td>
+<td>Consulente con cliente e fornitori</td>
+<td>Cliente e legale rappresentante</td>
+</tr>
+<tr>
+<td>Allegato B - Prospetto delle spese</td>
+<td>Consulente sulla base dei preventivi</td>
+<td>Cliente e legale rappresentante</td>
+</tr>
+<tr>
+<td>Preventivi</td>
+<td>Ciascun fornitore</td>
+<td>Cliente + controllo consulenziale</td>
+</tr>
+<tr>
+<td>Cronoprogramma e budget</td>
+<td>Consulente con fornitori</td>
+<td>Cliente</td>
+</tr>
+<tr>
+<td>Descrizioni tecniche e KPI</td>
+<td>Consulente/fornitore su dati cliente</td>
+<td>Cliente</td>
+</tr>
+<tr>
+<td>Prove di qualificazione fornitori</td>
+<td>Fornitore/consulente</td>
+<td>Controllo prima dell'invio</td>
+</tr>
+<tr>
+<td>Eventuali CV, certificazioni e prove di mercato</td>
+<td>Soggetti interessati</td>
+<td>Cliente/consulente</td>
+</tr>
+</tbody>
+</table>
+<h3 id="allegati-obbligatori-indicati-al-punto-c1">Allegati obbligatori
+indicati al punto C.1</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" />Domanda di contributo generata dalla
+piattaforma ReStart.</label></li>
+<li><label><input type="checkbox" />Allegato A "Progetto", generato dal
+form online, ricevuto via e-mail, firmato digitalmente e caricato in
+ReStart.</label></li>
+<li><label><input type="checkbox" /><a
+href="https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_B_Prospetto_spese_Bando_SI4.0_2026.xlsx">Scarica
+l'Allegato B "Prospetto delle spese"</a>.</label></li>
+<li><label><input type="checkbox" /><a
+href="https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_C_Calcolo_Dimensione_Impresa.xlsm">Scarica
+l'Allegato C "Modulo per il calcolo della dimensione di
+impresa"</a>.</label></li>
+<li><label><input type="checkbox" />Preventivi di spesa.</label></li>
+<li><label><input type="checkbox" />Report Selfi 4.0
+valido.</label></li>
+<li><label><input type="checkbox" />Certificato della polizza
+catastrofale.</label></li>
+</ul>
+<blockquote>
+<p>La mancanza totale della <strong>Domanda di contributo</strong>,
+dell'<strong>Allegato A</strong> o dell'<strong>Allegato B</strong>
+comporta l'esclusione, salva la possibilità di presentare una nuova
+domanda finché la finestra resta aperta. La domanda non è soggetta a
+imposta di bollo. Riferimento: <strong>C.1</strong>.</p>
+</blockquote>
+<hr />
+<h2 id="step-6---guida-ai-campi-della-domanda">Step 6 - Guida ai campi
+della domanda</h2>
+<p>Usare questa sezione come foglio di raccolta dati. I nomi effettivi
+dei campi devono essere verificati sulla versione corrente di ReStart e
+dei moduli ufficiali.</p>
+<h3 id="dati-impresa">Dati impresa</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Valore da inserire</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ragione sociale</td>
+<td>[RAGIONE SOCIALE]</td>
+</tr>
+<tr>
+<td>Codice fiscale</td>
+<td>[CODICE FISCALE]</td>
+</tr>
+<tr>
+<td>Partita IVA</td>
+<td>[PARTITA IVA]</td>
+</tr>
+<tr>
+<td>Numero REA</td>
+<td>[REA]</td>
+</tr>
+<tr>
+<td>Sede legale</td>
+<td>[INDIRIZZO, CAP, COMUNE, PROVINCIA]</td>
+</tr>
+<tr>
+<td>Sede operativa oggetto dell'intervento</td>
+<td>[INDIRIZZO, CAP, COMUNE, PROVINCIA]</td>
+</tr>
+<tr>
+<td>PEC unica di procedura</td>
+<td>[PEC]</td>
+</tr>
+<tr>
+<td>E-mail operativa</td>
+<td>[EMAIL]</td>
+</tr>
+<tr>
+<td>Titolare/legale rappresentante</td>
+<td>[NOME, COGNOME, CODICE FISCALE, QUALIFICA]</td>
+</tr>
+<tr>
+<td>Dimensione impresa</td>
+<td>[MICRO/PICCOLA/MEDIA]</td>
+</tr>
+<tr>
+<td>Codice ATECO/attività</td>
+<td>[ATECO E DESCRIZIONE]</td>
+</tr>
+<tr>
+<td>IBAN, se richiesto dalla piattaforma</td>
+<td>[IBAN]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dati-progetto">Dati progetto</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Valore da inserire</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Titolo</td>
+<td>[TITOLO PROGETTO]</td>
+</tr>
+<tr>
+<td>Sintesi</td>
+<td>[SINTESI]</td>
+</tr>
+<tr>
+<td>Obiettivi</td>
+<td>[OBIETTIVI MISURABILI]</td>
+</tr>
+<tr>
+<td>Tecnologia/e B.2</td>
+<td>[TECNOLOGIE]</td>
+</tr>
+<tr>
+<td>Piano attività</td>
+<td>[FASI E MILESTONE]</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>[TEAM INTERNO ED ESTERNO]</td>
+</tr>
+<tr>
+<td>Innovazione digitale e green</td>
+<td>[IMPATTI E KPI]</td>
+</tr>
+<tr>
+<td>AI/robotica</td>
+<td>[DESCRIZIONE/N.A.]</td>
+</tr>
+<tr>
+<td>Cantierabilità e mercato</td>
+<td>[EVIDENZE]</td>
+</tr>
+<tr>
+<td>Data prevista di avvio</td>
+<td>[DATA]</td>
+</tr>
+<tr>
+<td>Data prevista di conclusione</td>
+<td>[DATA ENTRO 12 MESI DALLA CONCESSIONE]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dati-fornitori-e-budget">Dati fornitori e budget</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Valore da inserire</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fornitore 1</td>
+<td>[DENOMINAZIONE - CODICE FISCALE - CATEGORIA B.4 - IMPORTO]</td>
+</tr>
+<tr>
+<td>Fornitore 2</td>
+<td>[DENOMINAZIONE - CODICE FISCALE - CATEGORIA B.4/N.A. - IMPORTO]</td>
+</tr>
+<tr>
+<td>Consulenza</td>
+<td>[EUR]</td>
+</tr>
+<tr>
+<td>Formazione</td>
+<td>[EUR]</td>
+</tr>
+<tr>
+<td>Attrezzature/software</td>
+<td>[EUR]</td>
+</tr>
+<tr>
+<td>Ingegnerizzazione</td>
+<td>[EUR]</td>
+</tr>
+<tr>
+<td>Proprietà industriale</td>
+<td>[EUR]</td>
+</tr>
+<tr>
+<td>Personale</td>
+<td>[EUR, MAX 30% DI A-E]</td>
+</tr>
+<tr>
+<td>Investimento complessivo</td>
+<td>[IMPORTO PROGETTO]</td>
+</tr>
+<tr>
+<td>Contributo richiesto</td>
+<td>[50% DEI COSTI AMMISSIBILI, MAX EUR 30.000,00]</td>
+</tr>
+<tr>
+<td>Rating di legalità</td>
+<td>[0/1/2/3 STELLE]</td>
+</tr>
+<tr>
+<td>Certificazione parità di genere UNI/PdR 125:2022</td>
+<td>[SI/NO]</td>
+</tr>
+<tr>
+<td>Collaborazione DIH/EDI</td>
+<td>[SOGGETTO, RUOLO, EVIDENZA/N.A.]</td>
+</tr>
+</tbody>
+</table>
+<p>Le premialità economiche sono EUR 250,00 per la certificazione di
+parità di genere e, per il rating di legalità, EUR 150,00 con una
+stella, EUR 300,00 con due stelle ed EUR 500,00 con tre stelle. Sono
+subordinati al possesso alla data della domanda, sono eventualmente
+cumulabili e non concorrono al punteggio tecnico. Riferimento:
+<strong>B.1</strong>.</p>
+<hr />
+<h2 id="step-7---procedura-su-restart">Step 7 - Procedura su
+ReStart</h2>
+<ol type="1">
+<li>Accedere a <a
+href="https://restart.infocamere.it">https://restart.infocamere.it</a>
+con <strong>SPID, CNS o CIE</strong>.</li>
+<li>Selezionare il bando <strong>SI4.0 2026</strong> e indicare la
+sede/localizzazione oggetto dell'intervento.</li>
+<li>Compilare l'anagrafica usando <strong>[PEC]</strong> come unico
+domicilio digitale della procedura.</li>
+<li>Compilare il form online dell'<strong>Allegato A "Progetto"</strong>
+tramite il collegamento ufficiale: <a
+href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=wdFmYyKD6Uub8uowsPk3pQRM4xmFFUFMg1ZB7towhUBUNkQ5NFpVTlI2Q0JNUUlXSFBBVzlXQURTRi4u">https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=wdFmYyKD6Uub8uowsPk3pQRM4xmFFUFMg1ZB7towhUBUNkQ5NFpVTlI2Q0JNUUlXSFBBVzlXQURTRi4u</a></li>
+<li>Verificare la ricezione via e-mail del PDF generato dal form; il
+mittente previsto dal bando è
+<code>noreply.bandi@lom.camcom.it</code>.</li>
+<li>Far firmare digitalmente il PDF dell'Allegato A "Progetto" dal
+legale rappresentante e caricarlo nella pratica.</li>
+<li>Compilare/caricare Allegato B, Allegato C, preventivi, Selfi 4.0 e
+certificato della polizza.</li>
+<li>Completare la domanda in piattaforma e generare il modulo
+riepilogativo ReStart.</li>
+<li>Far firmare digitalmente la documentazione richiesta dal
+titolare/legale rappresentante.</li>
+<li>Confrontare dati, importi, fornitori, sede, PEC e allegati prima
+della trasmissione.</li>
+<li>Trasmettere esclusivamente tramite ReStart entro la finestra
+prevista.</li>
+<li>Salvare ricevuta, numero pratica/protocollo, copia esatta dei file
+inviati e schermata/esito di trasmissione.</li>
+</ol>
+<blockquote>
+<p><strong>Importante:</strong> la sola compilazione del form online
+dell'Allegato A <strong>non equivale all'invio della domanda</strong>.
+Il bando esclude invii cartacei o tramite canali telematici diversi da
+ReStart. Riferimento: <strong>C.1</strong>.</p>
+</blockquote>
+<h3 id="collegamenti-da-verificare-prima-delluso">Collegamenti da
+verificare prima dell'uso</h3>
+<ul>
+<li>Piattaforma ReStart: <a
+href="https://restart.infocamere.it">https://restart.infocamere.it</a></li>
+<li>Selfi 4.0: <a
+href="https://www.puntoimpresadigitale.camcom.it/paginainterna/assessment-maturita-digitale-imprese">https://www.puntoimpresadigitale.camcom.it/paginainterna/assessment-maturita-digitale-imprese</a></li>
+<li>Allegato A "Progetto" - form online ufficiale: <a
+href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=wdFmYyKD6Uub8uowsPk3pQRM4xmFFUFMg1ZB7towhUBUNkQ5NFpVTlI2Q0JNUUlXSFBBVzlXQURTRi4u">https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=wdFmYyKD6Uub8uowsPk3pQRM4xmFFUFMg1ZB7towhUBUNkQ5NFpVTlI2Q0JNUUlXSFBBVzlXQURTRi4u</a></li>
+<li>Allegato B "Prospetto delle spese": <a
+href="https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_B_Prospetto_spese_Bando_SI4.0_2026.xlsx">scarica
+il file Excel</a></li>
+<li>Allegato C "Modulo per il calcolo della dimensione di impresa": <a
+href="https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_C_Calcolo_Dimensione_Impresa.xlsm">scarica
+il file Excel con macro</a></li>
+</ul>
+<blockquote>
+<p><strong>Nota sull'Allegato C:</strong> il file è in formato
+<code>.xlsm</code> e contiene macro. Scaricarlo e aprirlo con Microsoft
+Excel desktop, mantenendo invariato il formato; abilitare le macro solo
+se il file è stato ricevuto da questa fonte verificata.</p>
+</blockquote>
+<p>Prima di condividere la guida, verificare che il link dell'Allegato A
+e i file degli Allegati B e C coincidano con quelli pubblicati nella
+pagina ufficiale del bando.</p>
+<hr />
+<h2 id="controlli-finali-prima-dellinvio">Controlli finali prima
+dell'invio</h2>
+<h3 id="ammissibilità">Ammissibilità</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" />Tutti i requisiti A.3 risultano
+<strong>SI</strong> con evidenze disponibili.</label></li>
+<li><label><input type="checkbox" />La sede operativa selezionata
+appartiene a un territorio finanziato.</label></li>
+<li><label><input type="checkbox" />Non esistono sovrapposizioni vietate
+con aiuti sulle stesse spese.</label></li>
+<li><label><input type="checkbox" />È stata verificata l'eventuale
+presenza di domande di imprese collegate.</label></li>
+<li><label><input type="checkbox" />Il massimale de minimis è stato
+verificato.</label></li>
+</ul>
+<h3 id="progetto-e-punteggio">Progetto e punteggio</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" />È selezionata almeno una tecnologia
+del punto B.2, realmente pertinente.</label></li>
+<li><label><input type="checkbox" />Il progetto riguarda sviluppo,
+sperimentazione, prototipazione e/o messa sul mercato ed è
+cantierabile.</label></li>
+<li><label><input type="checkbox" />Obiettivi, risultati, mercato, team,
+metodologia e costi sono coerenti.</label></li>
+<li><label><input type="checkbox" />Gli impatti digitali e green sono
+documentati senza inventare valori.</label></li>
+<li><label><input type="checkbox" />AI/robotica è valorizzata solo se
+effettivamente presente.</label></li>
+<li><label><input type="checkbox" />Il piano si conclude entro 12 mesi e
+non presuppone proroghe.</label></li>
+</ul>
+<h3 id="budget-e-fornitori">Budget e fornitori</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" />Le spese ammissibili sono almeno EUR
+25.000,00.</label></li>
+<li><label><input type="checkbox" />Il contributo è calcolato al 50% e
+non supera EUR 30.000,00, salvo premialità applicabili.</label></li>
+<li><label><input type="checkbox" />Il personale non supera il 30% della
+somma delle voci a-e e non include soci/amministratori.</label></li>
+<li><label><input type="checkbox" />Ogni fattura prevista contiene
+almeno EUR 300,00 di spesa ammissibile al netto IVA.</label></li>
+<li><label><input type="checkbox" />Ogni fornitore soggetto a B.4 ha
+qualifica documentata e valida.</label></li>
+<li><label><input type="checkbox" />Denominazioni e codici fiscali dei
+fornitori sono indicati nell'Allegato B.</label></li>
+<li><label><input type="checkbox" />Non esistono rapporti societari,
+partecipativi, familiari o di reciprocità vietati.</label></li>
+</ul>
+<h3 id="forma-e-trasmissione">Forma e trasmissione</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" />Domanda ReStart, Allegato A e
+Allegato B sono presenti: la loro totale assenza comporta
+esclusione.</label></li>
+<li><label><input type="checkbox" />Allegato C, preventivi, Selfi 4.0 e
+certificato di polizza sono presenti.</label></li>
+<li><label><input type="checkbox" />L'unica PEC coincide tra domanda e
+anagrafica ReStart.</label></li>
+<li><label><input type="checkbox" />Tutte le firme digitali richieste
+sono valide.</label></li>
+<li><label><input type="checkbox" />Gli importi coincidono tra ReStart,
+Allegato A, Allegato B e preventivi.</label></li>
+<li><label><input type="checkbox" />Il titolare/legale rappresentante ha
+validato dichiarazioni e contenuti.</label></li>
+<li><label><input type="checkbox" />La trasmissione avviene tra le ore
+14:00 del 1/9/2026 e le ore 12:00 del 25/9/2026.</label></li>
+<li><label><input type="checkbox" />Ricevuta, protocollo e copia della
+pratica sono archiviati.</label></li>
+</ul>
+<blockquote>
+<p><strong>ESITO INTERNO:</strong> [DA REVISIONARE / VALIDATO DAL
+CONSULENTE / VALIDATO DAL LEGALE RAPPRESENTANTE]<br />
+Anche con checklist completa, la pratica non deve essere considerata
+presentabile senza la validazione umana finale.</p>
+</blockquote>
+<hr />
+<h2 id="dopo-linvio-istruttoria">Dopo l'invio: istruttoria</h2>
+<ul>
+<li>Monitorare quotidianamente <strong>[PEC]</strong>, unico domicilio
+della procedura.</li>
+<li>Archiviare ogni comunicazione con data di ricezione e scadenza.</li>
+<li>Le integrazioni richieste in istruttoria devono essere fornite entro
+<strong>10 giorni di calendario</strong> dalla ricezione; il mancato
+invio comporta la decadenza della domanda. Riferimento:
+<strong>C.3</strong>.</li>
+<li>L'istruttoria formale e tecnica e la graduatoria sono previste entro
+<strong>90 giorni dal termine di presentazione</strong>, salvo
+interruzioni dei termini. Riferimento: <strong>C.3</strong>.</li>
+<li>La comunicazione dell'esito è inviata alla PEC indicata.</li>
+<li>Un progetto ammesso ma non finanziato per esaurimento risorse può
+beneficiare di successivo scorrimento della graduatoria.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Evento/richiesta</th>
+<th>Scadenza</th>
+<th>Responsabile</th>
+<th>Stato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[DATA]</td>
+<td>[COMUNICAZIONE]</td>
+<td>[DATA]</td>
+<td>[NOME]</td>
+<td>[STATO]</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dopo-la-concessione-realizzazione-e-rendicontazione">Dopo la
+concessione: realizzazione e rendicontazione</h2>
+<h3 id="regole-operative-durante-il-progetto">Regole operative durante
+il progetto</h3>
+<ul>
+<li>Completare attività, fatture, pagamenti e rendicontazione entro
+<strong>12 mesi dalla concessione</strong>; non sono previste
+proroghe.</li>
+<li>Sostenere almeno EUR 25.000,00 di spese riconosciute e almeno il 70%
+delle spese ammissibili approvate.</li>
+<li>Far emettere fatture coerenti con il progetto, con chiara
+identificazione dell'intervento, <strong>CUP</strong> e dicitura
+<code>Spesa sostenuta a valere sul BANDO SI4.0 2026</code>.</li>
+<li>Pagare integralmente dal conto del beneficiario con bonifico
+bancario/postale o altro strumento pienamente tracciabile, indicando gli
+estremi delle fatture.</li>
+<li>Non usare contanti, compensazioni o ordini di pagamento non
+eseguiti.</li>
+<li>Conservare contabili eseguite e/o estratti conto.</li>
+<li>Segnalare e motivare a <code>imprese@lom.camcom.it</code>, almeno
+<strong>15 giorni prima della rendicontazione</strong>, le variazioni
+che aumentano di oltre il 30% l'importo approvato della singola voce;
+attendere l'autorizzazione preventiva e non sostenere prima le nuove
+spese. Riferimento: <strong>D.1</strong>.</li>
+</ul>
+<h3 id="documentazione-di-rendicontazione">Documentazione di
+rendicontazione</h3>
+<p>Da presentare su ReStart, sezione bandi in rendicontazione,
+selezionando <strong>SI4.0 - 2026</strong>:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Domanda di rendicontazione generata
+da ReStart e firmata digitalmente dal legale rappresentante o
+delegato.</label></li>
+<li><label><input type="checkbox" />Relazione finale tramite il form che
+sarà reso disponibile dopo la graduatoria.</label></li>
+<li><label><input type="checkbox" />Prospetto delle spese
+rendicontate.</label></li>
+<li><label><input type="checkbox" />Fatture elettroniche con intervento,
+CUP e dicitura del bando.</label></li>
+<li><label><input type="checkbox" />Quietanze e documentazione
+bancaria/postale in stato eseguito/pagato.</label></li>
+<li><label><input type="checkbox" />Per la formazione, dichiarazione di
+fine corso e attestato di frequenza per almeno l'80% del monte ore
+complessivo.</label></li>
+<li><label><input type="checkbox" />Report guidato
+<strong>ZOOM4.0</strong>, redatto o aggiornato a partire dal <strong>1°
+gennaio 2027</strong> dal Digital Promoter della Camera di
+commercio.</label></li>
+<li><label><input type="checkbox" />Certificazione IBAN su carta
+intestata dell'istituto di credito.</label></li>
+<li><label><input type="checkbox" />Polizza catastrofale aggiornata,
+soltanto se quella presentata in domanda è scaduta.</label></li>
+</ul>
+<p>Le integrazioni della rendicontazione devono essere inviate entro
+<strong>10 giorni di calendario</strong> dalla richiesta, pena decadenza
+totale. L'erogazione è prevista entro <strong>90 giorni dalla
+presentazione della rendicontazione finale</strong>, dopo i controlli.
+Riferimento: <strong>C.4</strong>.</p>
+<h3 id="obblighi-successivi">Obblighi successivi</h3>
+<ul>
+<li>Conservare la documentazione tecnica, amministrativa e contabile per
+<strong>5 anni</strong>; il bando richiama come decorrenza il
+provvedimento di erogazione in D.1 e quello di assegnazione in D.3:
+applicare prudenzialmente il termine più esteso e validarlo con
+l'ente.</li>
+<li>Mantenere la sede operativa attiva nel territorio della Camera
+finanziatrice per almeno <strong>3 anni dall'erogazione</strong>.</li>
+<li>Non cedere, alienare o distrarre i beni agevolati per <strong>3 anni
+dall'erogazione</strong>.</li>
+<li>Mantenere la destinazione d'uso di beni e opere finanziate per
+<strong>3 anni dall'erogazione</strong>.</li>
+<li>Collaborare a controlli, sopralluoghi e indagini di
+customer/effectiveness eventualmente richiesti.</li>
+</ul>
+<p>Riferimenti: <strong>D.1, D.2, D.3 e D.4</strong>.</p>
+<hr />
+<h2 id="supporto-e-contatti">Supporto e contatti</h2>
+<table>
+<thead>
+<tr>
+<th>Esigenza</th>
+<th>Contatto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Referente interno cliente</td>
+<td>[NOME - RUOLO - EMAIL - TELEFONO]</td>
+</tr>
+<tr>
+<td>Consulente pratica</td>
+<td>[NOME CONSULENTE - EMAIL - TELEFONO]</td>
+</tr>
+<tr>
+<td>Fornitore tecnico</td>
+<td>[FORNITORE - REFERENTE - EMAIL - TELEFONO]</td>
+</tr>
+<tr>
+<td>Chiarimenti sul bando</td>
+<td><code>imprese@lom.camcom.it</code></td>
+</tr>
+<tr>
+<td>FAQ</td>
+<td><a
+href="https://www.unioncamerelombardia.it">https://www.unioncamerelombardia.it</a>
+- sezione Bandi</td>
+</tr>
+<tr>
+<td>Assistenza tecnica informatica</td>
+<td><a
+href="https://www.registroimprese.it/web/guest/assistenza">https://www.registroimprese.it/web/guest/assistenza</a></td>
+</tr>
+<tr>
+<td>Assistenza ReStart</td>
+<td><a
+href="https://restart.infocamere.it/aiuto">https://restart.infocamere.it/aiuto</a></td>
+</tr>
+<tr>
+<td>Rinuncia al contributo</td>
+<td><code>unioncamerelombardia@legalmail.it</code> con oggetto previsto
+al punto D.2</td>
+</tr>
+</tbody>
+</table>
+<p>Unioncamere Lombardia precisa che non fornirà risposte puntuali a
+singoli quesiti e rinvia alle FAQ per ulteriori chiarimenti. Verificare
+sempre eventuali aggiornamenti pubblicati dopo la data di questa guida.
+Riferimento: <strong>D.7</strong>.</p>
+<hr />
+<h2 id="registro-di-personalizzazione-e-approvazione">Registro di
+personalizzazione e approvazione</h2>
+<table>
+<thead>
+<tr>
+<th>Controllo</th>
+<th>Nome</th>
+<th>Data</th>
+<th>Esito/firma interna</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dati e requisiti cliente</td>
+<td>[RESPONSABILE CLIENTE]</td>
+<td>[DATA]</td>
+<td>[ESITO]</td>
+</tr>
+<tr>
+<td>Progetto e budget</td>
+<td>[CONSULENTE]</td>
+<td>[DATA]</td>
+<td>[ESITO]</td>
+</tr>
+<tr>
+<td>Fornitori e qualifiche</td>
+<td>[RESPONSABILE]</td>
+<td>[DATA]</td>
+<td>[ESITO]</td>
+</tr>
+<tr>
+<td>Allegati e firme</td>
+<td>[RESPONSABILE]</td>
+<td>[DATA]</td>
+<td>[ESITO]</td>
+</tr>
+<tr>
+<td>Validazione finale</td>
+<td>[LEGALE RAPPRESENTANTE]</td>
+<td>[DATA]</td>
+<td>[ESITO]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Versione personalizzata per:</strong> [RAGIONE SOCIALE]<br />
+<strong>Data ultimo controllo del bando/FAQ:</strong> [DATA]<br />
+<strong>Stato:</strong> <strong>DA PERSONALIZZARE E SOTTOPORRE A
+VALIDAZIONE UMANA PRIMA DELL'USO</strong></p>
+<hr />
+<h2 id="fonti">Fonti</h2>
+<ul>
+<li><code>Bando_SI4.0_2026.pdf</code>, Unioncamere Lombardia, punti
+A.1-D.11 (fonte primaria).</li>
+<li>Allegati A, B e C e FAQ ufficiali: verificare la versione pubblicata
+alla data di utilizzo.</li>
+<li>I documenti locali di analisi, template e checklist sono stati usati
+come supporto redazionale e verificati rispetto al bando; in caso di
+conflitto prevale il PDF ufficiale.</li>
+</ul>
+</body>
+</html>
