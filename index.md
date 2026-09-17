@@ -31,3 +31,13 @@ Scegli la pagina dedicata al tuo progetto:
 | **Italia Digitale S.r.l.** | Viale Monte Nero 82, 20135 Milano — P.IVA 11914080962 |
 
 Hai bisogno di aiuto? [Supporto](supporto.md)
+
+---
+
+## Bando SI4.0 2026
+
+Consulta la nuova guida multi-pagina dedicata al **Bando SI4.0 2026 - Sviluppo di Soluzioni Innovative 4.0**:
+
+### [→ Vai alla guida SI4.0 2026](si4-0-2026/)
+
+La sezione include preparazione, progetto, budget, invio, istruttoria, allegati ufficiali e template cliente.
