@@ -1,73 +1,47 @@
 ---
 layout: default
-title: SI4.0 2026 - Step 2 Progetto
+title: SI4.0 2026 - Progetto e Selfi 4.0
 ---
 
-[SI4.0 2026](./) › **Step 2 - Progetto 4.0**
+{% include si4-nav.html prefix="" %}
 
-# Step 2 - Definizione del progetto 4.0
+# 2. Prepara il progetto e il Selfi 4.0
 
-> **FAQ:** le FAQ ufficiali SI4.0 2026 non sono state reperite alla data di redazione. Verificare gli aggiornamenti su [Unioncamere Lombardia](https://www.unioncamerelombardia.it) prima dell'invio.
+## Selfi 4.0
 
-Il progetto deve sviluppare, attraverso sperimentazione, prototipazione e messa sul mercato, una soluzione, applicazione, prodotto o servizio innovativo 4.0 **prontamente cantierabile** e con potenziale interesse di mercato. Deve includere almeno una tecnologia del punto B.2.
+Prima dell'invio serve il report [Selfi 4.0](https://www.puntoimpresadigitale.camcom.it/paginainterna/assessment-maturita-digitale-imprese), compilato o aggiornato dal **1 gennaio 2026**.
 
-## Scheda progetto
+## Cosa deve dire il progetto
 
-| Campo | Contenuto |
-|---|---|
-| Titolo e impresa | [TITOLO PROGETTO] - [RAGIONE SOCIALE] |
-| Problema/opportunità | [PROBLEMA CONCRETO E MISURABILE] |
-| Soluzione | [DESCRIZIONE SOLUZIONE 4.0] |
-| Tecnologia principale | [TECNOLOGIA B.2] |
-| Stato iniziale e risultati | [SITUAZIONE ATTUALE] - [OUTPUT E KPI] |
-| Mercato e cantierabilità | [CLIENTI, EVIDENZE DI INTERESSE, SOSTENIBILITÀ] |
-| Impatto digitale e green | [BENEFICI QUANTIFICATI E FONTI DEI DATI] |
-| AI/robotica | [COMPONENTE E IMPATTO / N.A.] |
-| Durata | [INIZIO] - [FINE], entro 12 mesi dalla concessione |
-| Team e fornitori | [RUOLI, COMPETENZE, FORNITORI] |
+Il progetto deve descrivere una soluzione innovativa 4.0 che sia pronta a partire, con risultati concreti e interesse di mercato. Non basta indicare l'acquisto di un software standard o una semplice digitalizzazione interna.
 
-## Tecnologie ammissibili
+Racconta in modo chiaro:
 
-- [ ] Robotica industriale e collaborativa; human-centric robotics.
-- [ ] Sistemi di visione artificiale.
-- [ ] Manifattura additiva e prototipazione rapida.
-- [ ] Realtà aumentata, virtuale, mixed reality e ricostruzioni 3D.
-- [ ] Digital twin, hardware in the loop, human in the loop.
-- [ ] IoT e sistemi cyber-fisici.
-- [ ] Cloud ed edge computing.
-- [ ] Cybersecurity e business continuity.
-- [ ] AI, machine learning, deep learning, NLP, LLM, agenti AI e data mining.
-- [ ] Blockchain e smart contract.
-- [ ] Big data e analytics.
-- [ ] ERP, CRM, MES, DMS, HRMS, WMS e BI.
+- il problema concreto da risolvere;
+- la soluzione che vuoi sviluppare;
+- la tecnologia 4.0 utilizzata;
+- i risultati attesi, con dati reali o stimati in modo motivato;
+- chi userebbe o acquisterebbe la soluzione;
+- perche il progetto puo partire subito e concludersi entro 12 mesi.
 
-Inserire solo tecnologie reali, necessarie e coerenti con attività, team, preventivi e risultati.
+## Testo da copiare in ReStart
 
-## Piano e valutazione tecnica
+Per ogni cliente questa casella verra sostituita con il testo del suo progetto, pronto da copiare nel campo descrizione della procedura ReStart.
 
-| Criterio | Max | Evidenze da preparare |
-|---|---:|---|
-| a. Coerenza e qualità | 20 | Missione, fabbisogno, obiettivi misurabili |
-| b. Piano di attività | 10 | Fasi, tempi, milestone, deliverable, costi |
-| c. Team | 10 | Ruoli, esperienza, CV e certificazioni verificabili |
-| d. Metodi e tecnologie | 10 | Metodo, strumenti, sviluppo e test |
-| e. Innovazione digitale e green | 15 | KPI digitali, ambientali, energetici o idrici |
-| f. AI/robotica | 15 | Funzione e risultati reali; N.A. se assente |
-| g. Cantierabilità | 10 | Interesse di mercato e sostenibilità economica |
-| h. Congruità costi | 5 | Preventivi e giustificazione delle spese |
-| i. Chiarezza e completezza | 5 | Dati e allegati coerenti |
-| k. Collaborazione DIH/EDI | +3 | Ruolo reale documentato; solo dopo 65/100 |
+<div class="copy-container">
+  <div class="copy-header">
+    <span>Modello testo progetto</span>
+    <button class="copy-btn" type="button">Copia</button>
+  </div>
+  <textarea class="copy-text" readonly>[RAGIONE SOCIALE] intende sviluppare [NOME DELLA SOLUZIONE] per risolvere [PROBLEMA CONCRETO].
 
-A parità di punteggio prevalgono, nell'ordine, i criteri **e**, **a** e **g**. Non inventare valori: ogni KPI deve avere una base verificabile.
+La soluzione utilizza [TECNOLOGIA 4.0] per [FUNZIONE PRINCIPALE]. Il progetto consentira di [RISULTATO MISURABILE], con un impatto atteso su [BENEFICIO DIGITALE / GREEN / ORGANIZZATIVO].
 
-## Cronoprogramma
+Le attivita comprendono analisi, sviluppo, test e messa a disposizione della soluzione entro 12 mesi dalla concessione. Il progetto e pronto a partire perche [MOTIVO DI CANTIERABILITA] e risponde alle esigenze di [MERCATO / CLIENTI / UTILIZZATORI].</textarea>
+</div>
 
-| Fase | Attività | Deliverable | Inizio | Fine | Responsabile | Costo |
-|---|---|---|---|---|---|---:|
-| 1 | [ATTIVITÀ] | [DELIVERABLE] | [DATA] | [DATA] | [SOGGETTO] | [EUR] |
-| 2 | [ATTIVITÀ] | [DELIVERABLE] | [DATA] | [DATA] | [SOGGETTO] | [EUR] |
-| 3 | [ATTIVITÀ] | [DELIVERABLE] | [DATA] | [DATA] | [SOGGETTO] | [EUR] |
+<div class="si4-callout"><strong>Importante:</strong> questo e un modello generico. Nella pagina del singolo cliente inseriremo il testo reale del progetto, non i segnaposto.</div>
 
----
+<p class="si4-next"><a href="step-3-budget.html">Continua: raccogli budget e documenti →</a></p>
 
-[← Step 1](step-1-preparazione.md) · [Landing](./) · [Step 3 →](step-3-budget.md)
+{% include si4-nav.html prefix="" %}

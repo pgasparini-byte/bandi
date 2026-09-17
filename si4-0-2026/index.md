@@ -1,60 +1,47 @@
 ---
 layout: default
-title: Bando SI4.0 2026
+title: SI4.0 2026 - Istruzioni
 ---
 
-[Home bandi](../) › **SI4.0 2026**
+{% include si4-nav.html prefix="" %}
 
-# Bando SI4.0 2026
-## Guida operativa per preparare e presentare la domanda
+<div class="si4-hero">
+  <h1>SI4.0 2026</h1>
+  <p><strong>Istruzioni operative</strong></p>
+  <p class="si4-deadline">Invio domanda entro il 25 settembre 2026, ore 12:00</p>
+  <p>Contributo 50%, fino a EUR 30.000, per investimenti da almeno EUR 25.000.</p>
+</div>
 
-Questa sezione raccoglie le istruzioni operative per il **Bando SI4.0 2026 - Sviluppo di Soluzioni Innovative 4.0** di Unioncamere Lombardia.
+## Prima di iniziare
 
-> **Modello da verificare e validare.** La guida non sostituisce il bando e gli allegati ufficiali. Il consulente e il titolare o legale rappresentante devono controllare dati, requisiti, preventivi, firme e documentazione prima dell'invio. La presentazione resta un'attività umana sotto la responsabilità dell'impresa richiedente.
-
-> **FAQ:** le FAQ ufficiali SI4.0 2026 non sono state reperite alla data di redazione. Verificare eventuali aggiornamenti su [Unioncamere Lombardia](https://www.unioncamerelombardia.it) prima dell'invio.
-
-## Scadenza e regole chiave
-
-- **Apertura:** ore 14:00 del 1 settembre 2026.
-- **Chiusura:** ore 12:00 del 25 settembre 2026.
-- **Canale unico:** [ReStart InfoCamere](https://restart.infocamere.it), con SPID, CNS o CIE e firma digitale.
-- **Procedura:** valutativa a graduatoria; soglia tecnica minima **65/100** prima della premialità DIH/EDI.
-- **Investimento minimo:** EUR 25.000,00 di spese ammissibili.
-- **Contributo:** 50% dei costi ammissibili, massimo EUR 30.000,00, oltre alle eventuali premialità economiche applicabili.
-- **Regime:** de minimis, Regolamento (UE) 2023/2831.
-- **Durata:** entro 12 mesi dalla concessione, senza proroghe.
-
-## Percorso operativo
-
-| Fase | Contenuto |
+| Da verificare | Regola |
 |---|---|
-| 1 | [Preparazione e ammissibilità](step-1-preparazione.md) |
-| 2 | [Progetto 4.0 e valutazione tecnica](step-2-progetto.md) |
-| 3 | [Budget, spese e fornitori](step-3-budget.md) |
-| 4 | [Documenti e invio su ReStart](step-4-invio.md) |
-| 5 | [Istruttoria, concessione e rendicontazione](step-5-istruttoria.md) |
-| Allegati | [Guida e download ufficiali](allegati.md) |
-| Supporto | [Contatti e collegamenti utili](supporto.md) |
+| Sede operativa | Bergamo, Brescia oppure Milano Monza Brianza Lodi |
+| Sede legale | Lombardia |
+| Accesso | SPID, CNS o CIE e firma digitale |
+| Procedura | [ReStart InfoCamere](https://restart.infocamere.it) |
+| Valutazione | Graduatoria, con soglia minima di 65/100 |
 
-## Risorse per territorio
+## Hai una premialita economica?
 
-| Camera di commercio | Stanziamento |
+Controlla subito se l'impresa possiede gia una di queste condizioni alla data della domanda:
+
+| Condizione | Premialita |
 |---|---:|
-| Bergamo | EUR 325.000,00 |
-| Brescia | EUR 250.000,00 |
-| Milano Monza Brianza Lodi | EUR 4.500.000,00 |
-| **Totale** | **EUR 5.075.000,00** |
+| Certificazione parita di genere UNI/PdR 125:2022 | EUR 250 |
+| Rating di legalita, 1 stella | EUR 150 |
+| Rating di legalita, 2 stelle | EUR 300 |
+| Rating di legalita, 3 stelle | EUR 500 |
 
-## Pagine cliente
+## Segui questi passaggi
 
-Non sono stati pubblicati dati cliente reali. È disponibile il [_template cliente](_template-cliente/) con soli segnaposto e avvertenze. Creare una sottocartella dedicata solo dopo verifica e autorizzazione dei dati da condividere.
+<div class="si4-grid">
+  <a class="si4-card" href="step-1-preparazione.html"><strong>1. Apri ReStart</strong><span>Accedi, scegli il bando e verifica i requisiti essenziali.</span></a>
+  <a class="si4-card" href="step-2-progetto.html"><strong>2. Prepara progetto e Selfi</strong><span>Completa il Selfi 4.0 e prepara il testo del progetto.</span></a>
+  <a class="si4-card" href="step-3-budget.html"><strong>3. Raccogli documenti</strong><span>Preventivi, budget, Allegato B, Allegato C e polizza.</span></a>
+  <a class="si4-card" href="step-4-invio.html"><strong>4. Carica e invia</strong><span>Completa ReStart e trasmetti la domanda entro la scadenza.</span></a>
+  <a class="si4-card" href="step-5-istruttoria.html"><strong>5. Dopo l'invio</strong><span>Gestisci istruttoria, realizzazione e rendicontazione.</span></a>
+  <a class="si4-card" href="allegati.html"><strong>Allegati</strong><span>Apri il form A e scarica gli Allegati B e C.</span></a>
+</div>
 
-## Fonti
-
-- Bando ufficiale SI4.0 2026, punti A.1-D.11.
-- Allegati B e C ufficiali disponibili nella sezione [Allegati](allegati.md).
-
----
-
-[Home bandi](../) · [Step 1 →](step-1-preparazione.md) · [Supporto](supporto.md)
+{% include si4-nav.html prefix="" %}

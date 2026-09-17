@@ -1,53 +1,43 @@
 ---
 layout: default
-title: SI4.0 2026 - Step 5 Istruttoria
+title: SI4.0 2026 - Dopo l'invio
 ---
 
-[SI4.0 2026](./) › **Step 5 - Istruttoria e rendicontazione**
+{% include si4-nav.html prefix="" %}
 
-# Step 5 - Dopo l'invio e dopo la concessione
-
-> **FAQ:** le FAQ ufficiali SI4.0 2026 non sono state reperite alla data di redazione. Verificare gli aggiornamenti su [Unioncamere Lombardia](https://www.unioncamerelombardia.it) prima dell'invio e durante l'istruttoria.
+# 5. Dopo l'invio e dopo la concessione
 
 ## Istruttoria
 
-- Monitorare ogni giorno la PEC indicata in domanda.
-- Inviare le integrazioni richieste entro **10 giorni di calendario** dalla ricezione; il mancato invio comporta decadenza.
-- L'approvazione della graduatoria è prevista entro **90 giorni dal termine di presentazione**, salvo interruzioni.
-- Conservare tutte le comunicazioni, le scadenze e la copia protocollata della pratica.
-- Un progetto ammesso ma non finanziato può beneficiare di un successivo scorrimento.
+- Controlla ogni giorno la PEC indicata nella domanda.
+- Se ricevi una richiesta di integrazione, rispondi entro **10 giorni di calendario**.
+- La graduatoria e prevista entro **90 giorni** dalla chiusura del bando, salvo interruzioni.
+- Conserva comunicazioni, scadenze, ricevuta e copia protocollata della pratica.
 
-| Data | Evento/richiesta | Scadenza | Responsabile | Stato |
-|---|---|---|---|---|
-| [DATA] | [COMUNICAZIONE] | [DATA] | [NOME] | [STATO] |
+## Realizzazione del progetto
 
-## Realizzazione
+- Completa attivita, pagamenti e rendicontazione entro **12 mesi dalla concessione**.
+- Raggiungi almeno EUR 25.000 di spese riconosciute e almeno il 70% delle spese approvate.
+- Le fatture devono indicare intervento, CUP e dicitura `Spesa sostenuta a valere sul BANDO SI4.0 2026`.
+- Paga dal conto dell'impresa con strumenti tracciabili: niente contanti, compensazioni o ordini non eseguiti.
 
-- Completare attività, pagamenti e rendicontazione entro 12 mesi dalla concessione; nessuna proroga.
-- Raggiungere almeno EUR 25.000,00 di spese riconosciute e almeno il 70% delle spese ammissibili approvate.
-- Far indicare in fattura intervento, CUP e dicitura `Spesa sostenuta a valere sul BANDO SI4.0 2026`.
-- Pagare integralmente dal conto del beneficiario con strumenti tracciabili; niente contanti, compensazioni o ordini non eseguiti.
-- Segnalare a `imprese@lom.camcom.it`, almeno 15 giorni prima della rendicontazione, le variazioni che aumentano oltre il 30% una singola voce e attendere l'autorizzazione prima della nuova spesa.
+## Rendicontazione
 
-## Rendicontazione su ReStart
+Su ReStart dovrai presentare:
 
-- [ ] Domanda di rendicontazione firmata digitalmente.
-- [ ] Relazione finale tramite il form reso disponibile dopo la graduatoria.
-- [ ] Prospetto delle spese rendicontate.
-- [ ] Fatture elettroniche con intervento, CUP e dicitura del bando.
-- [ ] Quietanze e prove bancarie/postali eseguite.
-- [ ] Per formazione: fine corso e attestato di frequenza almeno all'80%.
-- [ ] Report ZOOM4.0 redatto/aggiornato dal 1 gennaio 2027 dal Digital Promoter.
-- [ ] Certificazione IBAN e polizza aggiornata se quella iniziale è scaduta.
-
-Le integrazioni della rendicontazione vanno fornite entro 10 giorni di calendario. L'erogazione è prevista entro 90 giorni dalla rendicontazione finale, dopo i controlli.
+- domanda di rendicontazione firmata digitalmente;
+- relazione finale;
+- prospetto delle spese rendicontate;
+- fatture, quietanze e prove bancarie/postali;
+- per la formazione, attestati di frequenza;
+- report ZOOM4.0, certificazione IBAN e polizza aggiornata se necessaria.
 
 ## Obblighi successivi
 
-- Conservare la documentazione tecnica, amministrativa e contabile per 5 anni; applicare prudenzialmente il termine più esteso in caso di divergenze interpretative.
-- Mantenere la sede operativa nel territorio finanziatore, i beni agevolati e la loro destinazione d'uso per almeno 3 anni dall'erogazione.
-- Collaborare a controlli, sopralluoghi e monitoraggi.
+- Conserva la documentazione per 5 anni.
+- Mantieni sede operativa, beni agevolati e destinazione d'uso per almeno 3 anni dall'erogazione.
+- Collabora a eventuali controlli o sopralluoghi.
 
----
+<p class="si4-next"><a href="supporto.html">Vai a supporto e collegamenti utili →</a></p>
 
-[← Step 4](step-4-invio.md) · [Landing](./) · [Supporto →](supporto.md)
+{% include si4-nav.html prefix="" %}

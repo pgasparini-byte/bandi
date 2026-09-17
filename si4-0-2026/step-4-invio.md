@@ -1,64 +1,47 @@
 ---
 layout: default
-title: SI4.0 2026 - Step 4 Invio
+title: SI4.0 2026 - Carica e invia
 ---
 
-[SI4.0 2026](./) › **Step 4 - Documenti e invio**
+{% include si4-nav.html prefix="" %}
 
-# Step 4 - Documenti e invio su ReStart
+# 4. Carica e invia la domanda
 
-> **FAQ:** le FAQ ufficiali SI4.0 2026 non sono state reperite alla data di redazione. Verificare gli aggiornamenti su [Unioncamere Lombardia](https://www.unioncamerelombardia.it) prima dell'invio.
+Questa e la fase operativa finale su [ReStart](https://restart.infocamere.it).
 
-## Responsabilità e documenti
+## Documenti da caricare
 
-### Il cliente fornisce o valida
+1. Domanda di contributo generata da ReStart.
+2. Allegato A - Progetto, compilato online e firmato digitalmente.
+3. Allegato B - Prospetto delle spese.
+4. Allegato C - Calcolo della dimensione di impresa.
+5. Preventivi di spesa.
+6. Report Selfi 4.0.
+7. Certificato della polizza catastrofale.
 
-- Dati anagrafici/camerali, Allegato C e imprese associate/collegate.
-- Selfi 4.0, certificato polizza catastrofale, dati team e personale.
-- Requisiti A.3, PEC unica e firma digitale.
+> Se manca del tutto la domanda ReStart, l'Allegato A o l'Allegato B, la domanda viene esclusa.
 
-### Consulente e fornitori preparano, il cliente approva
+## Procedura
 
-- Allegato A - Progetto; Allegato B - Prospetto delle spese.
-- Preventivi, cronoprogramma, budget, KPI e descrizioni tecniche.
-- Evidenze di qualificazione fornitori, CV/certificazioni e prove di mercato.
+1. Completa i dati della pratica su ReStart.
+2. Compila il [form ufficiale dell'Allegato A](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=wdFmYyKD6Uub8uowsPk3pQRM4xmFFUFMg1ZB7towhUBUNkQ5NFpVTlI2Q0JNUUlXSFBBVzlXQURTRi4u).
+3. Attendi il PDF dell'Allegato A da `noreply.bandi@lom.camcom.it`.
+4. Firma digitalmente il PDF e caricalo nella pratica.
+5. Carica Allegati B/C, preventivi, Selfi 4.0 e polizza.
+6. Controlla che sede, PEC, importi e fornitori coincidano in tutti i documenti.
+7. Invia la domanda entro il **25 settembre 2026, ore 12:00**.
+8. Salva ricevuta, protocollo e copia dei file inviati.
 
-## Allegati da caricare
+## Prima di cliccare Invia
 
-- [ ] Domanda di contributo generata da ReStart.
-- [ ] Allegato A, generato dal form online, ricevuto via e-mail e firmato digitalmente.
-- [ ] [Allegato B - Prospetto delle spese](https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_B_Prospetto_spese_Bando_SI4.0_2026.xlsx).
-- [ ] [Allegato C - Dimensione impresa](https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_C_Calcolo_Dimensione_Impresa.xlsm).
-- [ ] Preventivi, Selfi 4.0 valido e certificato della polizza catastrofale.
+- Hai verificato sede, DURC, diritto camerale e polizza?
+- Hai caricato tutti i documenti elencati sopra?
+- Gli importi dell'Allegato B coincidono con preventivi e domanda?
+- La firma digitale del legale rappresentante e valida?
+- Hai salvato una copia della pratica?
 
-La totale assenza della domanda, dell'Allegato A o dell'Allegato B comporta esclusione, salvo nuova domanda durante la finestra aperta. La domanda non è soggetta a bollo.
+<div class="si4-callout"><strong>Ricorda:</strong> compilare l'Allegato A non equivale a inviare la domanda. L'invio si conclude solo su ReStart.</div>
 
-## Procedura ReStart
+<p class="si4-next"><a href="step-5-istruttoria.html">Continua: cosa fare dopo l'invio →</a></p>
 
-1. Accedere a [ReStart](https://restart.infocamere.it) con SPID, CNS o CIE.
-2. Selezionare SI4.0 2026 e la sede operativa interessata.
-3. Usare la stessa PEC aziendale in anagrafica e domanda.
-4. Compilare il [form ufficiale Allegato A](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=wdFmYyKD6Uub8uowsPk3pQRM4xmFFUFMg1ZB7towhUBUNkQ5NFpVTlI2Q0JNUUlXSFBBVzlXQURTRi4u).
-5. Verificare l'arrivo del PDF da `noreply.bandi@lom.camcom.it`, farlo firmare digitalmente e caricarlo.
-6. Caricare Allegati B/C, preventivi, Selfi 4.0 e certificato polizza.
-7. Generare il modulo riepilogativo ReStart e far firmare i documenti richiesti.
-8. Confrontare sede, PEC, importi, fornitori e allegati.
-9. Trasmettere tra le ore 14:00 del 1/9/2026 e le ore 12:00 del 25/9/2026.
-10. Archiviare ricevuta, protocollo, file inviati ed esito.
-
-> La compilazione del form Allegato A non equivale all'invio della domanda. Sono esclusi canali diversi da ReStart.
-
-## Controllo finale
-
-- [ ] Requisiti A.3 verificati con evidenze.
-- [ ] Almeno una tecnologia B.2 pertinente e progetto cantierabile.
-- [ ] Budget minimo EUR 25.000, contributo massimo e personale verificati.
-- [ ] Qualifiche e assenza di rapporti vietati verificate per ogni fornitore.
-- [ ] Dati coerenti tra ReStart, Allegati A/B, preventivi e PEC.
-- [ ] Firma digitale valida e validazione finale del legale rappresentante.
-
-**Esito interno:** [DA REVISIONARE / VALIDATO DAL CONSULENTE / VALIDATO DAL LEGALE RAPPRESENTANTE]
-
----
-
-[← Step 3](step-3-budget.md) · [Landing](./) · [Step 5 →](step-5-istruttoria.md)
+{% include si4-nav.html prefix="" %}

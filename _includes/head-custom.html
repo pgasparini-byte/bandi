@@ -22,6 +22,74 @@
     color: rgb(246, 179, 49) !important;
   }
 
+  /* SI4.0 navigation and dashboard styles */
+  .si4-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 18px 0 26px;
+    padding: 12px;
+    background: #fff6dc;
+    border: 1px solid #e7d8b5;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    box-shadow: 0 3px 10px rgba(67,48,13,.08);
+  }
+  .si4-nav a, .si4-nav a:link, .si4-nav a:visited {
+    display: inline-block;
+    padding: 7px 10px;
+    background: #fffdf7;
+    border: 1px solid #d9bc73;
+    border-radius: 6px;
+    color: #222 !important;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .si4-nav a:hover { background: rgb(246, 179, 49); color: #222 !important; }
+  .si4-hero {
+    margin: 18px 0 28px;
+    padding: 22px;
+    background: linear-gradient(135deg, #fff6dc, #fffdf7);
+    border: 1px solid #e7d8b5;
+    border-radius: 12px;
+  }
+  .si4-hero h1 { margin: 0 0 8px; }
+  .si4-deadline { font-size: 1.1em; font-weight: 700; }
+  .si4-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 14px;
+    margin: 20px 0 28px;
+  }
+  .si4-card {
+    display: block;
+    padding: 16px;
+    background: #fffdf7;
+    border: 1px solid #e7d8b5;
+    border-radius: 10px;
+    color: #222 !important;
+    text-decoration: none;
+  }
+  .si4-card:hover { border-color: rgb(210, 145, 20); box-shadow: 0 4px 14px rgba(67,48,13,.12); }
+  .si4-card strong { display: block; margin-bottom: 5px; color: rgb(210, 145, 20) !important; }
+  .si4-card span { font-size: 0.9em; }
+  .si4-callout { margin: 20px 0; padding: 14px 16px; background: #fff6dc; border-left: 5px solid rgb(246, 179, 49); }
+  .si4-next { margin: 28px 0; text-align: right; }
+  .si4-next a, .si4-next a:link, .si4-next a:visited {
+    display: inline-block;
+    padding: 11px 16px;
+    background: rgb(246, 179, 49);
+    border-radius: 7px;
+    color: #222 !important;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .si4-next a:hover { background: rgb(210, 145, 20); }
+  @media (max-width: 640px) { .si4-nav { gap: 6px; padding: 9px; } .si4-nav a { font-size: 0.82em; padding: 6px 8px; } .si4-hero { padding: 17px; } }
+
   /* Copy button styles */
   .copy-container {
     border: 1px solid #ddd;

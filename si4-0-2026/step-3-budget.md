@@ -1,60 +1,49 @@
 ---
 layout: default
-title: SI4.0 2026 - Step 3 Budget
+title: SI4.0 2026 - Budget e documenti
 ---
 
-[SI4.0 2026](./) › **Step 3 - Budget e fornitori**
+{% include si4-nav.html prefix="" %}
 
-# Step 3 - Budget, spese e fornitori
+# 3. Raccogli budget e documenti
 
-> **FAQ:** le FAQ ufficiali SI4.0 2026 non sono state reperite alla data di redazione. Verificare gli aggiornamenti su [Unioncamere Lombardia](https://www.unioncamerelombardia.it) prima dell'invio.
+## Budget minimo
 
-## Piano delle spese
+| Regola | Importo |
+|---|---:|
+| Investimento minimo | EUR 25.000 |
+| Contributo | 50% delle spese ammissibili |
+| Contributo massimo | EUR 30.000 |
+| Personale dipendente | Massimo 30% delle altre voci di spesa |
 
-| Voce | Importo | Fornitore/risorsa | Qualificazione |
-|---|---:|---|---|
-| Consulenza | [EUR] | [FORNITORE] | Richiesta, B.4 |
-| Formazione sulle tecnologie B.2 | [EUR] | [FORNITORE] | Richiesta, B.4 |
-| Attrezzature tecnologiche e software necessari | [EUR] | [FORNITORE] | Nessun requisito specifico |
-| Ingegnerizzazione software/hardware/prodotti | [EUR] | [FORNITORE] | Richiesta, B.4 |
-| Proprietà industriale | [EUR] | [FORNITORE] | Nessun requisito specifico |
-| Personale dipendente dedicato | [EUR] | [DIPENDENTI] | Max 30% delle voci precedenti; esclusi soci/amministratori |
-| **Totale** | **[EUR, minimo 25.000]** |  |  |
-| **Contributo richiesto** | **[50%, max EUR 30.000]** |  | Verificare de minimis |
+## Spese che puoi inserire
 
-Non è previsto un tetto massimo di investimento. Attrezzature e leasing sono ammissibili solo per costo/quota capitale e periodo di utilizzo nel progetto. L'IVA è esclusa salvo costo realmente sostenuto e non recuperabile.
+- Consulenza.
+- Formazione sulle tecnologie 4.0.
+- Attrezzature tecnologiche e software necessari al progetto.
+- Ingegnerizzazione di software, hardware o prodotti.
+- Tutela della proprieta industriale.
+- Personale dipendente dedicato al progetto.
 
-## Spese da escludere
+Per consulenza, formazione e ingegnerizzazione serve un fornitore qualificato ai sensi del punto B.4 del bando. I preventivi devono essere dettagliati e coerenti con il progetto.
 
-- Autofatturazione, salvo la specifica eccezione prevista in rendicontazione.
-- Fatture con spese ammissibili sotto EUR 300,00 al netto IVA.
-- Smartphone; PC non strettamente collegati alle tecnologie B.2.
-- Beni usati e noleggio di attrezzature.
-- Certificazioni ISO/EMAS, adeguamenti normativi, consulenza prevalentemente fiscale, finanziaria o giuridica.
-- Formazione obbligatoria per legge.
-- Soci e amministratori tra il personale rendicontato.
+## Documenti da avere pronti
 
-## Verifica fornitore
-
-Per consulenza, formazione e ingegnerizzazione il fornitore deve appartenere a una categoria qualificata del punto B.4. Per ogni fornitore registrare:
-
-| Campo | Evidenza |
+| Documento | A cosa serve |
 |---|---|
-| Denominazione e CF/P.IVA | [DATI FORNITORE] |
-| Voce di spesa | [A/B/C/D/E] |
-| Categoria B.4 | [CATEGORIA / N.A.] |
-| Prova e validità della qualifica | [DOCUMENTO/LINK] - [SI/NO/DA VERIFICARE] |
-| Assenza di rapporti vietati | [SI/NO/DA VERIFICARE] |
+| Preventivi | Dimostrano costi, fornitori e attivita previste. |
+| Allegato B | Riporta voci di spesa, importi e fornitori. |
+| Allegato C | Serve per calcolare la dimensione dell'impresa. |
+| Polizza catastrofale | Va allegato il certificato. |
+| Selfi 4.0 | Deve essere aggiornato dal 1 gennaio 2026. |
 
-Se si usa l'Elenco pubblico dei Fornitori 4.0 di Unioncamere Lombardia, la domanda di iscrizione deve precedere la domanda dell'impresa. Sono vietati fornitori collegati/controllati, partecipazioni comuni almeno del 25%, amministratori, soci o prossimi congiunti e rapporti di reciprocità tra richiedente e fornitore richiedente.
+### Download rapidi
 
-## Premialità economiche
+- [Scarica Allegato B (.xlsx)](https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_B_Prospetto_spese_Bando_SI4.0_2026.xlsx)
+- [Scarica Allegato C (.xlsm)](https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_C_Calcolo_Dimensione_Impresa.xlsm)
 
-- Certificazione parità di genere UNI/PdR 125:2022: EUR 250,00.
-- Rating di legalità: EUR 150,00 (1 stella), EUR 300,00 (2), EUR 500,00 (3).
+> L'Allegato C contiene macro: aprilo con Excel desktop e abilita le macro solo se il file proviene da questa pagina.
 
-Le premialità richiedono il possesso alla data della domanda, rispettano i limiti de minimis e non concorrono al punteggio tecnico.
+<p class="si4-next"><a href="step-4-invio.html">Continua: carica e invia la domanda →</a></p>
 
----
-
-[← Step 2](step-2-progetto.md) · [Landing](./) · [Step 4 →](step-4-invio.md)
+{% include si4-nav.html prefix="" %}
