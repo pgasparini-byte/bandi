@@ -26,7 +26,7 @@ Racconta in modo chiaro:
 
 ## Testo da copiare in ReStart
 
-Per ogni cliente questa casella verra sostituita con il testo del suo progetto, pronto da copiare nel campo descrizione della procedura ReStart.
+Nella pagina dedicata a ogni cliente trovi il testo del suo progetto, pronto da copiare nel campo descrizione della procedura ReStart.
 
 <div class="copy-container">
   <div class="copy-header">
@@ -40,7 +40,7 @@ La soluzione utilizza [TECNOLOGIA 4.0] per [FUNZIONE PRINCIPALE]. Il progetto co
 Le attivita comprendono analisi, sviluppo, test e messa a disposizione della soluzione entro 12 mesi dalla concessione. Il progetto e pronto a partire perche [MOTIVO DI CANTIERABILITA] e risponde alle esigenze di [MERCATO / CLIENTI / UTILIZZATORI].</textarea>
 </div>
 
-<div class="si4-callout"><strong>Importante:</strong> questo e un modello generico. Nella pagina del singolo cliente inseriremo il testo reale del progetto, non i segnaposto.</div>
+<div class="si4-callout"><strong>Importante:</strong> questo modello serve solo per comprendere la struttura. Per la domanda usa sempre il testo definitivo nella pagina dedicata alla tua impresa.</div>
 
 <p class="si4-next"><a href="step-3-budget.html">Continua: raccogli budget e documenti →</a></p>
 

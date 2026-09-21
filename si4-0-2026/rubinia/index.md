@@ -5,9 +5,9 @@ title: SI4.0 2026 - Istruzioni Rubinia
 
 {% include si4-nav.html prefix="../" %}
 
-# SI4.0 2026 - Rubinia
+# Bando SI4.0 2026 - Rubinia
 
-<div class="si4-callout"><strong>Pagina di lavoro per Francesca e il team Rubinia.</strong> La domanda puo essere presentata dal 1 settembre 2026, ore 14:00, al <strong>25 settembre 2026, ore 12:00</strong>.</div>
+<div class="si4-callout"><strong>Istruzioni per il Bando SI4.0 2026 - Rubinia.</strong> La domanda puo essere presentata dal 1 settembre 2026, ore 14:00, al <strong>25 settembre 2026, ore 12:00</strong>.</div>
 
 ## Il progetto
 
@@ -15,7 +15,7 @@ title: SI4.0 2026 - Istruzioni Rubinia
 
 Il progetto crea un servizio digitale B2B per i concessionari Rubinia: catalogo digitale, informazioni commerciali e di servizio, strumenti per vendita assistita e procedure per garanzie, riparazioni e richieste. Twenty CRM, NocoDB, API e workflow n8n sono il motore dati del servizio; dashboard, AI con supervisione umana e formazione ne sostengono l'adozione da parte della rete.
 
-## Descrizione del progetto da copiare
+## Descrizione del progetto - Bando SI4.0 2026
 
 <div class="copy-container">
   <div class="copy-header">
