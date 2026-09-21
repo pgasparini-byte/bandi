@@ -39,8 +39,8 @@ Per consulenza, formazione e ingegnerizzazione serve un fornitore qualificato ai
 
 ### Download rapidi
 
-- [Scarica Allegato B (.xlsx)](https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_B_Prospetto_spese_Bando_SI4.0_2026.xlsx)
-- [Scarica Allegato C (.xlsm)](https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_C_Calcolo_Dimensione_Impresa.xlsm)
+- [Scarica Allegato B (.xlsx)](https://pgasparini-byte.github.io/bandi/si4-0-2026/allegati/Allegato_B_Prospetto_spese_Bando_SI4.0_2026.xlsx)
+- [Scarica Allegato C (.xlsm)](https://pgasparini-byte.github.io/bandi/si4-0-2026/allegati/Allegato_C_Calcolo_Dimensione_Impresa.xlsm)
 
 > L'Allegato C contiene macro: aprilo con Excel desktop e abilita le macro solo se il file proviene da questa pagina.
 

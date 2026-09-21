@@ -15,11 +15,11 @@ Dopo la compilazione riceverai il PDF via e-mail da `noreply.bandi@lom.camcom.it
 
 ## Allegato B - Prospetto delle spese
 
-[Scarica Allegato B (.xlsx)](https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_B_Prospetto_spese_Bando_SI4.0_2026.xlsx)
+[Scarica Allegato B (.xlsx)](https://pgasparini-byte.github.io/bandi/si4-0-2026/allegati/Allegato_B_Prospetto_spese_Bando_SI4.0_2026.xlsx)
 
 ## Allegato C - Dimensione impresa
 
-[Scarica Allegato C (.xlsm)](https://pgasparini-byte.github.io/bando-voucher-doppia-transizione-2026/si4-0-2026/allegati/Allegato_C_Calcolo_Dimensione_Impresa.xlsm)
+[Scarica Allegato C (.xlsm)](https://pgasparini-byte.github.io/bandi/si4-0-2026/allegati/Allegato_C_Calcolo_Dimensione_Impresa.xlsm)
 
 > Il file `.xlsm` contiene macro. Aprilo con Excel desktop e abilita le macro solo dopo avere verificato la provenienza del file.
 
