@@ -26,21 +26,11 @@ Racconta in modo chiaro:
 
 ## Testo da copiare in ReStart
 
-Nella pagina dedicata a ogni cliente trovi il testo del suo progetto, pronto da copiare nel campo descrizione della procedura ReStart.
+Il testo da copiare non e disponibile in questa guida generale: ogni impresa ha una pagina dedicata con il proprio progetto definitivo.
 
-<div class="copy-container">
-  <div class="copy-header">
-    <span>Modello testo progetto</span>
-    <button class="copy-btn" type="button">Copia</button>
-  </div>
-  <textarea class="copy-text" readonly>[RAGIONE SOCIALE] intende sviluppare [NOME DELLA SOLUZIONE] per risolvere [PROBLEMA CONCRETO].
+<div class="si4-callout"><strong>Rubinia:</strong> apri le <a href="rubinia/">istruzioni SI4.0 2026 dedicate a Rubinia</a> e usa esclusivamente il testo presente nella sezione "Descrizione del progetto - Bando SI4.0 2026".</div>
 
-La soluzione utilizza [TECNOLOGIA 4.0] per [FUNZIONE PRINCIPALE]. Il progetto consentira di [RISULTATO MISURABILE], con un impatto atteso su [BENEFICIO DIGITALE / GREEN / ORGANIZZATIVO].
-
-Le attivita comprendono analisi, sviluppo, test e messa a disposizione della soluzione entro 12 mesi dalla concessione. Il progetto e pronto a partire perche [MOTIVO DI CANTIERABILITA] e risponde alle esigenze di [MERCATO / CLIENTI / UTILIZZATORI].</textarea>
-</div>
-
-<div class="si4-callout"><strong>Importante:</strong> questo modello serve solo per comprendere la struttura. Per la domanda usa sempre il testo definitivo nella pagina dedicata alla tua impresa.</div>
+> Non copiare modelli con segnaposto nella domanda. Il testo deve corrispondere a progetto, preventivo e Allegato B dell'impresa.
 
 <p class="si4-next"><a href="step-3-budget.html">Continua: raccogli budget e documenti →</a></p>
 

@@ -28,9 +28,9 @@ La soluzione supera la frammentazione delle informazioni oggi distribuite fra Hu
 
 Una componente di intelligenza artificiale assistera la classificazione e l'arricchimento delle informazioni di prodotto e di servizio, proponendo categorie, attributi e priorita operative. L'approccio sara human-in-the-loop: gli operatori Rubinia verificheranno le proposte prima dell'utilizzo commerciale o dell'aggiornamento di dati rilevanti. Il pilota con concessionari misurera tempi operativi, completezza dei campi, utilizzo delle funzioni e quota di suggerimenti approvati dopo revisione umana; baseline e target saranno definiti nella fase iniziale.
 
-Il progetto sara realizzato per fasi: analisi dei flussi e definizione delle baseline; progettazione dell'architettura e del modello dati; migrazione e integrazione; sviluppo e test del modulo AI; sperimentazione con un gruppo pilota di concessionari; formazione, rilascio e messa sul mercato del servizio. Le attivita produrranno specifiche, modello dati, flussi integrati, report di test, dashboard, manuali operativi e registri di formazione.
+La transizione digitale ed ecologica sara documentata con indicatori verificabili relativi alle attivita di ricerca e riallineamento delle informazioni, alle correzioni manuali e ai materiali informativi fisici effettivamente prodotti. Le componenti cloud saranno ospitate su infrastruttura Hetzner gestita da Italia Digitale. Hetzner dichiara che l'elettricita utilizzata nei propri data center in Germania e Finlandia proviene al 100% da fonti rinnovabili e pubblica indicatori di efficienza della propria infrastruttura. Questa scelta rende l'hosting coerente con un approccio di riduzione dell'impronta operativa associata al servizio digitale. Non elimina tuttavia gli impatti del cloud o dell'intelligenza artificiale: tali consumi non saranno confusi con i benefici misurati nei processi Rubinia.
 
-La transizione digitale e ambientale sara documentata con indicatori verificabili relativi alle attivita di ricerca e riallineamento delle informazioni, alle correzioni manuali e ai materiali informativi fisici effettivamente prodotti. Le componenti cloud saranno ospitate su infrastruttura Hetzner gestita da Italia Digitale; Hetzner dichiara che l'elettricita utilizzata nei propri data center in Germania e Finlandia proviene al 100% da fonti rinnovabili. La scelta non elimina gli impatti del cloud o dell'intelligenza artificiale: Rubinia misurera separatamente gli effetti attribuibili ai processi digitalizzati.
+Il progetto sara realizzato per fasi: analisi dei flussi e definizione delle baseline; progettazione dell'architettura e del modello dati; migrazione e integrazione; sviluppo e test del modulo AI; sperimentazione con un gruppo pilota di concessionari; formazione, rilascio e messa sul mercato del servizio. Le attivita produrranno specifiche, modello dati, flussi integrati, report di test, dashboard, manuali operativi e registri di formazione.
 
 Italia Digitale S.r.l. curera assessment, progettazione, migrazione e normalizzazione dei dati, integrazioni, implementazione del modulo AI, dashboard, test, formazione e affiancamento. Il progetto parte da sistemi gia operativi, da un fabbisogno della rete e da un prodotto B2B testabile e vendibile entro dodici mesi dalla concessione.</textarea>
 </div>
@@ -45,6 +45,10 @@ Italia Digitale S.r.l. curera assessment, progettazione, migrazione e normalizza
 - Dati di baseline per tempi operativi, correzioni e materiali informativi da misurare.
 - Disponibilita del gruppo pilota e lettere di interesse dei concessionari sul servizio B2B.
 - Validazione finale del perimetro tecnico, dei KPI e del testo progetto.
+
+## Documenti pronti
+
+- [Preventivo Italia Digitale n. 22-2026 (PDF)](Preventivo-22-2026-Italia-Digitale-srl.pdf)
 
 ## Cosa prepara Italia Digitale
 
