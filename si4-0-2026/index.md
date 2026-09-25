@@ -35,6 +35,12 @@ Controlla subito se l'impresa possiede gia una di queste condizioni alla data de
 
 ## Segui questi passaggi
 
+## Pagine cliente
+
+<div class="si4-grid">
+  <a class="si4-card" href="forever-bambu/index.html"><strong>Forever Bambu</strong><span>Carbon Manager Learning Operations 4.0: istruzioni, progetto e allegati.</span></a>
+</div>
+
 <div class="si4-grid">
   <a class="si4-card" href="step-1-preparazione.html"><strong>1. Apri ReStart</strong><span>Accedi, scegli il bando e verifica i requisiti essenziali.</span></a>
   <a class="si4-card" href="step-2-progetto.html"><strong>2. Prepara progetto e Selfi</strong><span>Completa il Selfi 4.0 e prepara il testo del progetto.</span></a>
