@@ -1,6 +1,6 @@
 # Preventivo Italia Digitale 2026 — Carbon Manager Learning Operations 4.0
 
-> **PREVENTIVO PREDISPOSTO PER IL BANDO SI4.0 2026.** Il presente preventivo di Italia Digitale ammonta a €48.000,00. Il progetto complessivo è strutturato su €60.000,00 di spese ammissibili, includendo €12.000,00 di personale dipendente Forever Bambu, per richiedere il contributo massimo di €30.000,00 (50%). Prima della firma devono essere confermati referente, licenze definitive, trattamento IVA e nominativi/costo eleggibile del personale.
+> **PREVENTIVO PREDISPOSTO PER IL BANDO SI4.0 2026.** Il presente preventivo di Italia Digitale ammonta a €54.000,00. Il progetto complessivo è strutturato su €60.000,00 di spese ammissibili, includendo €6.000,00 di personale dipendente Forever Bambu, per richiedere il contributo massimo di €30.000,00 (50%). Prima della firma devono essere confermati referente, licenze definitive, trattamento IVA e nominativi/costo eleggibile del personale.
 
 **Italia Digitale S.r.l.**  
 Viale Monte Nero 82 — 20135 Milano (MI)  
@@ -26,14 +26,14 @@ In riferimento alle Vostre richieste, sottoponiamo la nostra offerta per l'anali
 |---|---|---|---|---:|
 | **WP1** | Baseline, assessment e progettazione | Mappa AS-IS/TO-BE; requisiti; baseline KPI; RACI; specifiche funzionali; piano test e rischi. | 10 giornate Analista/PM senior × €800 | **€8.000,00** |
 | **WP2** | Modello dati e integrazioni verticali/orizzontali | Architettura; data dictionary; integrazioni tra LMS, Formbricks/survey, CRM, automazioni e analytics; configurazione dei servizi di assessment, regole di accesso e tracciamento. | 14 giornate Solution/Integration Architect × €800 | **€11.200,00** |
-| **WP3** | Workflow e componenti AI human-in-the-loop | Assessment e feedback intelligenti; classificazione; segnalazioni utenti a rischio; intelligence contenuti; servizi di automazione e analytics; log, soglie, fallback e protocollo di validazione. | 13,5 giornate AI/Software Engineer e Data Specialist × €800 | **€10.800,00** |
+| **WP3** | Workflow e componenti AI human-in-the-loop | Assessment e feedback intelligenti; classificazione; segnalazioni utenti a rischio; intelligence contenuti; servizi di automazione e analytics; log, soglie, fallback e protocollo di validazione. | 21 giornate AI/Software Engineer e Data Specialist × €800 | **€16.800,00** |
 | **WP4** | Dashboard operative e monitoraggio | Dashboard iscrizioni, avanzamento, completamento, supporto, feedback, conversione e qualità dei contenuti; esportazione KPI. | 7 giornate Developer/Data-BI Specialist × €800 | **€5.600,00** |
 | **WP5** | Pilota, collaudo e ottimizzazione | Test di integrazione e sicurezza; pilota con utenti, docenti e staff; raccolta feedback; benchmark AI/revisione umana; backlog correttivo; verbale di collaudo. | 4 giornate PM/QA/Developer × €800 | **€3.200,00** |
 | **WP6** | Formazione e messa a regime | Formazione operativa allo staff; manuali; procedure di gestione, supervisione AI, aggiornamento contenuti e uso dashboard; affiancamento al rilascio. | 10 giornate Formatore/PM × €500 | **€5.000,00** |
 | **INFRA** | Programmi informatici e servizi cloud per 12 mesi | Server Hetzner cloud/dedicated per integrazioni verticali e orizzontali, ambienti applicativi e test; database, backup, storage e monitoraggio. I servizi di survey, integrazione, automazione e analytics sono ricompresi nell'ingegnerizzazione. Dettaglio al punto 2. | Canoni e servizi di progetto | **€4.200,00** |
-|  | **Totale imponibile preventivo Italia Digitale** |  |  | **€48.000,00** |
-|  | IVA 22% | Da verificare ai fini dell'ammissibilità e recuperabilità |  | **€10.560,00** |
-|  | **Totale complessivo preventivo Italia Digitale** |  |  | **€58.560,00** |
+|  | **Totale imponibile preventivo Italia Digitale** |  |  | **€54.000,00** |
+|  | IVA 22% | Da verificare ai fini dell'ammissibilità e recuperabilità |  | **€11.880,00** |
+|  | **Totale complessivo preventivo Italia Digitale** |  |  | **€65.880,00** |
 
 ## 2. Dettaglio programmi informatici e servizi cloud
 
@@ -54,10 +54,10 @@ In riferimento alle Vostre richieste, sottoponiamo la nostra offerta per l'anali
 | **a) Consulenza** | WP1: analisi, baseline, progettazione, KPI, RACI e piano test | **€8.000,00** | 13,33% |
 | **b) Formazione** | WP6: formazione staff, manuali e affiancamento operativo | **€5.000,00** | 8,33% |
 | **c) Attrezzature tecnologiche e programmi informatici** | INFRA: servizi Hetzner, database, backup, storage e monitoraggio | **€4.200,00** | 7,00% |
-| **d) Ingegnerizzazione software/hardware e prodotti** | WP2, WP3, WP4 e WP5: architettura, assessment, integrazioni, automazioni, analytics, AI, dashboard, test e pilota | **€30.800,00** | 51,33% |
+| **d) Ingegnerizzazione software/hardware e prodotti** | WP2, WP3, WP4 e WP5: architettura, assessment, integrazioni, automazioni, analytics, AI, dashboard, test e pilota | **€36.800,00** | 61,33% |
 | **e) Proprietà industriale** | Non prevista | **€0,00** | 0,00% |
-| **f) Personale dipendente Forever Bambu** | Attività dirette su requisiti, contenuti, validazione AI, pilota, collaudo e adozione. Nominativi/costo eleggibile da completare in Allegato B. | **€12.000,00** | 20,00% |
-| **Totale spese proposte** | Italia Digitale €48.000 + personale dipendente Forever Bambu €12.000 | **€60.000,00** | **100%** |
+| **f) Personale dipendente Forever Bambu** | Attività dirette su requisiti, contenuti, validazione AI, pilota, collaudo e adozione. Nominativi/costo eleggibile da completare in Allegato B. | **€6.000,00** | 10,00% |
+| **Totale spese proposte** | Italia Digitale €54.000 + personale dipendente Forever Bambu €6.000 | **€60.000,00** | **100%** |
 | **Contributo richiesto (50%)** | Nei limiti del massimale del bando | **€30.000,00** |  |
 | **Quota a carico di Forever Bambu** | Al netto di eventuali premialità economiche e salvo trattamento IVA | **€30.000,00** |  |
 
@@ -86,7 +86,7 @@ Le componenti cloud saranno ospitate su infrastruttura Hetzner. Hetzner dichiara
 - **Pagamento:** mediante strumenti tracciabili dal conto del beneficiario; piano per milestone da definire nel contratto esecutivo, nel rispetto della tracciabilità richiesta dal bando.
 - **Fatturazione:** fatture analitiche con riferimento al deliverable, CUP e dicitura `Spesa sostenuta a valere sul BANDO SI4.0 2026`.
 - **IVA:** indicata separatamente; ammissibile solo se costituisce un costo effettivo non recuperabile, da verificare con Forever Bambu.
-- **Personale Forever Bambu:** i €12.000,00 della voce f) non fanno parte del corrispettivo di Italia Digitale. Devono essere calcolati secondo il metodo del costo eleggibile previsto dalle FAQ, riferiti esclusivamente a dipendenti espressamente dedicati (non soci o amministratori), con nominativi, attività, costo e documentazione/timesheet. Il limite è il 30% della somma delle voci a-e: con a-e pari a €48.000,00, il massimale teorico è €14.400,00; i €12.000,00 proposti rientrano nel limite.
+- **Personale Forever Bambu:** i €6.000,00 della voce f) non fanno parte del corrispettivo di Italia Digitale. Devono essere calcolati secondo il metodo del costo eleggibile previsto dalle FAQ, riferiti esclusivamente a dipendenti espressamente dedicati (non soci o amministratori), con nominativi, attività, costo e documentazione/timesheet. Il limite è il 30% della somma delle voci a-e: con a-e pari a €54.000,00, il massimale teorico è €16.200,00; i €6.000,00 proposti rientrano nel limite.
 - **Variazioni:** ogni modifica sostanziale al perimetro o alle voci sarà gestita secondo le regole del bando prima del sostenimento della spesa.
 
 Con osservanza,

@@ -78,8 +78,8 @@ Il progetto risponde alle indicazioni del Selfi 4.0 del 20/07/2026: strumenti di
 | A - Consulenza: baseline, requisiti, KPI e piano test | EUR 8.000 |
 | B - Formazione staff e messa a regime | EUR 5.000 |
 | C - Tecnologia: Hetzner, database, backup, storage e monitoraggio | EUR 4.200 |
-| D - Ingegnerizzazione: architettura, integrazioni, AI, dashboard, pilota e test | EUR 30.800 |
-| F - Personale dipendente Forever Bambu dedicato al progetto | EUR 12.000 |
+| D - Ingegnerizzazione: architettura, integrazioni, AI, dashboard, pilota e test | EUR 36.800 |
+| F - Personale dipendente Forever Bambu dedicato al progetto | EUR 6.000 |
 | **Totale investimento** | **EUR 60.000** |
 | **Contributo richiesto (50%)** | **EUR 30.000** |
 
