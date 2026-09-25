@@ -82,7 +82,7 @@ Questo conferma la piena coerenza dell'oggetto sociale con il progetto **Carbon 
 | Esito | **REGOLARE** nei confronti di INPS e INAIL |
 | Intestatario | FOREVER BAMBU SPA SOCIETA' BENEFIT — CF 12072470961 |
 
-> [ATTENZIONE] Il DURC allegato scade il **01/08/2026**, quindi NON è valido alla data di domanda del Bando SI4.0 2026 (settembre 2026). Va richiesto un **nuovo DURC aggiornato** prima della presentazione.
+> [ATTENZIONE] Il DURC allegato scade il **01/08/2026**. Non è un allegato richiesto per la domanda: Unioncamere verifica la regolarità contributiva e acquisisce d'ufficio il DURC online in corso di validità. Prima della presentazione va quindi verificato che la posizione INPS/INAIL sia regolare.
 
 ## 5. Polizza eventi catastrofali (fonte: Scheda di Polizza e ricevuta assicurativa)
 
@@ -161,7 +161,7 @@ Indicazioni del report da valorizzare nella domanda:
 |---|---|---|
 | Sede legale in Lombardia | ✅ | Visura — Cernusco sul Naviglio (MI) |
 | Sede operativa in territorio finanziato | ✅ | CCIAA Milano Monza Brianza Lodi |
-| DURC regolare | ⚠️ **Scaduto il 01/08/2026** | DURC INPS_50201595 — serve nuovo DURC |
+| DURC regolare | ⚠️ **Da verificare** | DURC INPS_50201595 scaduto il 01/08/2026; non va allegato perché acquisito d'ufficio da Unioncamere tramite DURC online |
 | Polizza eventi catastrofali | ✅ | Polizza 535061153 Allianz, attiva fino al 27/11/2026 |
 | Selfi 4.0 valido | ✅ | Report del 20/07/2026 |
 | Dimensione MPMI | [DA VERIFICARE con Allegato C] | 5 addetti, fatturato €4.378.285 — verificare soglie UE |
@@ -171,4 +171,4 @@ Indicazioni del report da valorizzare nella domanda:
 | PEC | ✅ | foreverbambu29@pec.it |
 | IBAN | ✅ | IT48Y0879420300000000905623 |
 
-> **VALIDAZIONE UMANA OBBLIGATORIA:** prima dell'uso in domanda, il cliente e il legale rappresentante devono confermare DURC aggiornato, esito AGCM del rating, dimensione MPE secondo l'Allegato C e assenza della certificazione di parità di genere.
+> **VALIDAZIONE UMANA OBBLIGATORIA:** prima dell'uso in domanda, il cliente e il legale rappresentante devono confermare regolarità contributiva, esito AGCM del rating, dimensione MPMI secondo l'Allegato C e assenza della certificazione di parità di genere.
