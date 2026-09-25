@@ -14,6 +14,12 @@ La guida comprende requisiti, definizione del progetto, tecnologie ammissibili, 
 
 ### [→ Vai alle istruzioni SI4.0 2026](si4-0-2026/)
 
+### Pagine cliente SI4.0 2026
+
+| Cliente | Pagina |
+|---------|--------|
+| **Forever Bambu S.p.A. Società Benefit** | [→ Vai alle istruzioni Forever Bambu](forever-bambu/) |
+
 ---
 
 ## Bando Voucher Doppia Transizione Lombardia 2026
