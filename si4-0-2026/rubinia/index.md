@@ -48,7 +48,9 @@ Italia Digitale S.r.l. curera assessment, progettazione, migrazione e normalizza
 
 ## Documenti pronti
 
-- [Preventivo Italia Digitale n. 22-2026 (PDF)](Preventivo-22-2026-Italia-Digitale-srl.pdf)
+[Apri gli allegati Rubinia](allegati.html): preventivo e Allegato B, ciascuno disponibile nella copia leggibile e nella copia firmata digitalmente.
+
+> Il preventivo e l'Allegato B sono stati predisposti e firmati digitalmente da Italia Digitale. Rubinia deve verificare la coerenza dei dati e firmare digitalmente la documentazione di domanda richiesta dal bando prima dell'invio su ReStart.
 
 ## Cosa prepara Italia Digitale
 
